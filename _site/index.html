@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WnCC IIT Bombay</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="icon" href="/assets/images/logo.png">
+
+  <style>
+  @media screen and (max-width: 767px) {
+    .scroll{
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+    }
+  }
+  </style>
+
+</head>
+
+<body>
+
+
+  <header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      
+      <a href = "/">
+        <img src="/assets/images/logo.png" alt="WnCC IIT Bombay">
+        </a>
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/resources/">Resources</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/soc/">SoC</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/events/">Events</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/blogs/">Code::Blogs</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#team">Team</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#contact">Contact</a>
+          </li>
+        
+      </ul>
+    </div>
+    <div class = "side-bar">
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
+    
+      <aside class="box">
+      <label for="toggle" class="toggle"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
+      <section>
+        <p class="box__item" id ="anouncement">Announcements</p>
+        <p class="lead display-5">
+          <ul style = "list-style-type: disc; font-size: 20px;" class="box__item">
+            <li><a class = "anouncement-item" href = "/blogs/" class=" display-5" ><strong>Roadmap-2 Released</strong></a></li>
+          <li><a class = "anouncement-item" target = "_blank" href = "https://discord.gg/fHUH46xyGD" ><strong>Click Here to join our Discord channel!!</strong></a></li>
+          </ul>
+        </p>
+        </section>
+      </aside>
+      </div>
+  </nav>
+
+  <script>
+    function theme(){
+      var dark = "true";
+      if(dark === "true"){
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+  </script>
+</header>
+
+
+  <!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary invisible">Web and <br> Coding Club <br> <font color = '#ffa500'>IIT Bombay</font></h1>
+        <div class='console-container'><span class = "text-white font-tertiary" id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+        <div class='console-container'id = "console-container2"><span class = "font-tertiary" id='text2'></span><div class='console-underscore' id='console2'>&#95;</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg">
+    <img class="img-fluid" src="/assets/images/illustrations/leaf-bg.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l2">
+    <img src="/assets/images/illustrations/dots-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="/assets/images/illustrations/leaf-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="/assets/images/illustrations/dots-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="/assets/images/illustrations/leaf-yellow.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="/assets/images/illustrations/leaf-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="/assets/images/illustrations/dots-group-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="/assets/images/illustrations/leaf-pink-round.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="/assets/images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+  </div>
+  
+  <!-- social icon -->
+  <ul class="li1 list-unstyled ml-3 mt-3 position-relative zindex-1">
+    
+    <h3><li class="mb-3"><a class="text-white" href="https://www.facebook.com/wncc.iitb"><i class="ti-facebook" ></i></a></li></h3>
+    
+    <h3><li class="mb-3"><a class="text-white" href="http://instagram.com/wncc.iitb"><i class="ti-instagram" ></i></a></li></h3>
+    
+    <h3><li class="mb-3"><a class="text-white" href="https://www.linkedin.com/company/wncc-iitb/"><i class="ti-linkedin" ></i></a></li></h3>
+    
+    <h3><li class="mb-3"><a class="text-white" href="https://github.com/wncc"><i class="ti-github" ></i></a></li></h3>
+    
+  </ul>
+
+  <!-- /social icon -->
+</section>
+<!-- /hero area -->
+
+
+<!-- about -->
+<section class="section bg-cover">
+    <div class="d-flex justify-content-around">
+      <div>
+      <article class ="card p-4" style = "background-color: transparent!important; margin-right: 10 px;">
+      <img class =" desc-img" src = "/assets/images/logo-large.png" />
+      </article>
+      </div>
+      <article class ="card shadow p-4 align-items-center d-flex justify-content-center" style = "background-color: transparent!important; width:700px">
+        <span class="font-secondary text-dark desc" style = "font-size: 20px;">Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Institute Technical Council, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start.</span>
+      </article>
+    </div>
+  <!-- bg image -->
+  <!-- <img class="img-fluid edu-bg-image w-100" src="/assets/images/backgrounds/bg-about.png" alt="bg-image"> -->
+</section>
+<!-- /about -->
+
+
+<!-- testimonial -->
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Initiatives</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider center">
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/SoC (1).png"
+            alt="Seasons of Code" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">Seasons of Code</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The idea is that one can choose from the projects offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. The projects floated span several genres, including Development, Scientific Computation, Machine Learning and Open Source. With most of the projects running in summer, we’ve also had projects that have extended into the semester and some in winter.</p>
+        </div>
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/intern_session.png"
+            alt="Internship Preparation Session" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">Internship Preparation Session</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">To help prepare for the gruesome intership season, WnCC along with Career Cell IITB organized this Internship Preparation Program. We regularly released DSA preparation booklets (comprising both theory and questions) from 13th to 27th June 2021. Moreover, for assistance with the doubts related to the bookletsc we had with us, Aakash Kapoor, an IITB electrical 2020 graduate, currently, a Machine Learning researcher at Samsung. He also held detailed DSA tech sessions to help people learn.</p>
+        </div>
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/Grundy.png"
+            alt="WnCC Wiki- Grundy" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">WnCC Wiki- Grundy</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill.</p>
+        </div>
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/ls (1).png"
+            alt="Learner's Space" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">Learner's Space</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;"> Learners’ Space, is a programme done in collaboration with the Career cell, where enthusiastic students can pursue courses of their interest. It serves as an excellent platform for students to learn new things and make the most out of summer vacations. WnCC runs courses on a variety of topics ranging from Python, Machine Learning to Web/App development. Material (Tutorials, References & Documentation) is released, along with weekly assignments/projects allowing students to implement all that they have learned. </p>
+        </div>
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/news (1).png"
+            alt="Newsletter" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">Newsletter</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">The WnCC newsletter is all about delivering the latest and greatest news in the tech space! Now it has been made even more interesting by linking to entertaining and thought provoking videos. We envision the newsletter to be not only a source of latest news but also of nostalgia for the alumni. You will definitely enjoy the WnCC Newsletter! </p>
+        </div>
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/ciq (1).jpg"
+            alt="Code in Quarantine" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">Code in Quarantine</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">Code in Quarantine was a venture by WnCC aimed to help people begin their journey in programming. It spanned 8 weeks and covered a variety of topics such as Machine Learning, Competitive Programming, Web development, Blockchain etc. Beginner friendly resources and tutorials were shared along with tasks to help strengthen the concepts. </p>
+        </div>
+        
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="/assets/images/testimonial/reflections (1).jpg"
+            alt="Reflections" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">Reflections</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">Reflections are our beloved series of informal events that aim to give one an idea of the breadth of Computer Science. These are mostly conducted in Hostel Lounges, where speakers discuss about their CS research projects conducted as RnDs or internships. The problems discussed are usually very specific, but the discussion often covers an overview, providing a general understanding of the topic.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <img src="/assets/images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="/assets/images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="/assets/images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="/assets/images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="/assets/images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="/assets/images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
+
+
+
+<!-- experience -->
+<section class="section">
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center">
+      
+      <div class=" text-center mb-3 discord-logo">
+        <a href="https://discord.gg/fHUH46xyGD" target = "_blank">
+        <img class = "mb-3 discord-logo" style = "border-radius: 25%;"src="/assets/images/experience/discord.png" alt="Join our Discord Server to participate in engaging coding convos, external internship opportunities, WnCC resources and much more!!! icon">
+        </a>
+      </div>
+      
+      <div class=" text-center w-25 discord-desc" style = "margin-left:6vw">
+        <h4 class="section-title discord-title">Join our Discord Server to participate in engaging coding convos, external internship opportunities, WnCC resources and much more!!!</h4>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+
+
+
+
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center col-sm-8">
+        <h2 id = "facts" class="section-title">Achievements</h2>
+      </div>
+      
+      <div class="col-lg-6 mb-5 achievements">
+        <div class="d-flex justify-content-start">
+          <div class="mr-lg-5 mr-3">
+            <i class="mb-3 ti-medall icon icon-light icon-bg bg-dark shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <h4 class = "edu-content"> Number of Wiki Articles</h4>
+            <h3 class="mb-3 text-dark edu-content">      110+</h3>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 mb-5 achievements">
+        <div class="d-flex justify-content-start">
+          <div class="mr-lg-5 mr-3">
+            <i class="mb-3 ti-medall icon icon-light icon-bg bg-dark shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <h4 class = "edu-content">Number of Github repos</h4>
+            <h3 class="mb-3 text-dark edu-content">45+</h3>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 mb-5 achievements">
+        <div class="d-flex justify-content-start">
+          <div class="mr-lg-5 mr-3">
+            <i class="mb-3 ti-medall icon icon-light icon-bg bg-dark shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <h4 class = "edu-content">Improving the Coding Culture</h4>
+            <h3 class="mb-3 text-dark edu-content">since 15 years</h3>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 mb-5 achievements">
+        <div class="d-flex justify-content-start">
+          <div class="mr-lg-5 mr-3">
+            <i class="mb-3 ti-medall icon icon-light icon-bg bg-dark shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <h4 class = "edu-content">This year 300+ people</h4>
+            <h3 class="mb-3 text-dark edu-content">Participated in SoC</h3>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" id = "edu-bg">
+</section>
+<!-- /education -->
+
+
+
+<!-- team -->
+<section class="section team-cover" id ="team">
+  <div class="container-fluid">
+      <div>
+        <h1 class="section-title team-title" id ="team-title">The Team </h1>
+    </div>
+      <div class='team-info rounded'><span id='teamtext'></span>
+      <div class='team-console-underscore' id='teamconsole'>&#95;</div></div>
+        
+        <section class="team-section">
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:1">
+            <div class = "img-wrap">
+            <img class = "team-image" src = "/assets/images/team/tty15/Aryan_Bhosale.png" id ="Aryan_Bhosale">
+            </div>
+          </div>
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:2">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Navyansh_Mahla.png" id ="Navyansh">
+            </div>
+          </div>
+          
+          <div class="team-member" tabindex="0" style = "grid-row:1; grid-column:3; margin-left:-5px;">
+            <div class = "img-wrap">
+            <img class = "team-image" style = "width:100%" src = "/assets/images/team/tty15/Ishit_Garg.png" id ="Ishit">
+            </div>
+          </div>
+          
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:4">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Parth_Pujari.png" id ="Parth">
+            </div>
+          </div>
+
+
+          <div class="team-member" tabindex="0"  style = "grid-row:1; grid-column:5; margin-left:-20px">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Shrey_Aggarwal.png" id ="Shrey">
+            </div>
+          </div>
+
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:1">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Soutrik_Sarangi.png" id ="Soutrik">
+            </div>
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:2;">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Atishay_Jain.png" id ="Atishay">
+              </div>
+          </div>
+
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:3; ">
+            <div class = "img-wrap">
+            <img class = "team-image" style = "width:100%" src = "/assets/images/team/tty15/Shreedhar_Malpani.png" id ="Shreedhar">
+          </div>
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:4">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Aryan_Goyal.png" id ="Aryan">
+            </div>
+          </div>
+
+          
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:5;">
+            <div class = "img-wrap">
+            <img class = "team-image" src = "/assets/images/team/tty15/chaitanya.png" id ="Chaitanya">
+            </div>
+          </div>
+
+          
+        </section>
+        <section class = "mobile-team">
+        <div class ="row justify-content-md-center" >
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Ishit_Garg.png" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Ishit Garg</h4>
+                <p class="font-secondary card-desc">Manager</p>
+                  <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark mr-2" href="https://github.com/ishit16"><i class="ti-github"></i></a></h5>  
+                    <h5><a class="text-dark mr-2" href="https://www.facebook.com/ishit.garg.18"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/ishit-garg-a4120b201/"><i class="ti-linkedin"></i></a></h5>   
+                 </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Shreedhar_Malpani.png" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Shreedhar Malpani</h4>
+                <p class="font-secondary card-desc">Manager</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/shreedharmalpani"><i class="ti-github"></i></a></h5>
+                    <h5><a class="text-dark" href="https://www.facebook.com/ShreedharMalpani28"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/shreedhar-malpani-23a139209/"><i class="ti-linkedin"></i></a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Aryan_Bhosale.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Aryan Bhosale</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/Hyperion0209"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/profile.php?id=100075084139651"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/aryan-bhosale-345497226 "><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Aryan_Goyal.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Aryan Goyal</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/aryangoyal7"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/aryanx07/"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/aryan-goyal-8429611a7/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/chaitanya.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Chaitanya Aggarwal</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/Chaitanya-Aggarwal"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/chaitanya.aggarwal.940"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/chaitanya-aggarwal-991b82224/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Navyansh_Mahla.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Navyansh Mahla</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/navyanshmahla"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/navyansh.mahla"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/navyansh-mahla-519817223/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/Subarno Nath Roy.jpg" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Parth Pujari</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="http://github.com/ParthP3"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/profile.php?id=100075941285086"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/parth-pujari-12723323a"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/Shubh Kumar.jpg" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Shrey Aggarwal</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/Shrey312003"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="http://facebook.com/profile.php?id=100075168486456"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/Ishit Garg.jpeg" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Soutrik Sarangi</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="http://github.com/soutrik-01"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/soutrik.sarangi.1/"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+        </div>
+        </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- /team -->
+
+
+<!-- contact -->
+<section class="section" id = "contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-6 mx-auto">
+        <div class="bg-white rounded text-center p-5 border">
+          <h4 class="mb-20">Get in Touch with Us</h4>
+          <h5 class="mb-20">We are always looking for new exciting projects and collaborations. Feel Free to contact us!</h5>
+          <form action="https://formspree.io/f/mbjqplvd" method="POST" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12">
+              <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12 mb-6">
+              <textarea name="message" id="message" class="form-control px-0 mb-3"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+
+              <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+
+
+
+  <!-- footer -->
+<footer class="bg-dark footer-section bg-dark-footer">
+  <div class="section">
+    <div class="container-fluid pr-4 pl-4">
+      <div class="row justify-content-around">
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text">Email</h5>
+          <p class="text-white paragraph-lg font-secondary footer-text">wncc@iitb.ac.in</p>
+        </div>
+        <div class = "col-lg-2">
+        <h4 class = "text-center footer-text">
+          <a href = "https://www.facebook.com/wncc.iitb/"><i class ="ti-facebook"></i></a>
+          <a class = "ml-4" href = "https://github.com/wncc"><i class ="ti-github"></i></a>
+          <a class = "ml-4" href = "https://www.linkedin.com/company/wncc-iitb/mycompany/"><i class ="ti-linkedin"></i></a>
+          <a class = "ml-4" href = "https://www.instagram.com/wncc.iitb/"><i class ="ti-instagram"></i></a>
+        </h4>
+        </div>
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text" style="text-align: end;">Address</h5>
+          <p class="text-white paragraph-lg font-secondary text-end footer-text" style="text-align: end;">IIT Bombay, Powai, Mumbai, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <div class="border-top text-center border-dark py-2">
+    <p class="mb-0 text-light footer-text">Copyright ©️
+      <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Web and Coding Club, IIT Bombay
+    </p>
+  </div>
+</footer>
+<!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="/assets/plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="/assets/js/script2.js"></script>
+</body>
+
+</html>

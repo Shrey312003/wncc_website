@@ -1,0 +1,34 @@
+{% if site.data.settings.testimonial-items %}
+<!-- testimonial -->
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Initiatives</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider center">
+        {% for testimonial-item in site.data.settings.testimonial-items %}
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <center>
+          <img src="{{ site.baseurl }}/{{ testimonial-item.image }}"
+            alt="{{ testimonial-item.name }}" class = "img-fluid">
+          </center>
+          <br>
+          <h4 class="text-white">{{ testimonial-item.name }}</h4>
+          <p class="text-white mb-4 test-font" style = "font-family: 'Poppins', sans-serif;">{{ testimonial-item.content   }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <img src="{{ site.baseurl }}/assets/images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
+{% endif %}

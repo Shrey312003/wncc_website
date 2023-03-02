@@ -1,0 +1,1068 @@
+#-------------------------------
+# General Site Settings
+
+title: WnCC IIT Bombay
+logo: logo.png
+email: wncc@iitb.ac.in
+phone: 0000
+address: IIT Bombay, Powai, Mumbai, Maharashtra
+
+menu:
+- {name: Resources, link: '/resources/'}
+- {name: SoC, link: '/soc/'}
+- {name: Events, link: '/events/'}
+- {name: Contact, link: '/contact/'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Web and <br> Coding Club <br> <font color = '#ffa500'>IIT Bombay</font> 
+
+social:
+- {icon: "ti-facebook", link: "https://www.facebook.com/wncc.iitb"}
+- {icon: "ti-instagram", link: "http://instagram.com/wncc.iitb"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/company/wncc-iitb/"}
+- {icon: "ti-github", link: "https://github.com/wncc"}
+
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Institute Technical Council, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. Our aim is to propagate the enthusiasm for coding in the institute and especially amongst freshmen. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start. 
+
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+
+  - title : "Shruti Singh"
+    image : "assets/images/team/Shruti.jpeg"
+    designation : "Manager"
+    github : "https://github.com/shruhh"
+    facebook : "https://www.facebook.com/shruti.s.50364592/"
+    linkedin: "https://www.linkedin.com/in/shruti-singh-a02714195/"
+    
+  - title : "Divyanshi Kamra"
+    image : "assets/images/team/DK.jpg"
+    designation : "Manager"
+    github : "https://github.com/divyanshikamra"
+    facebook : "https://www.facebook.com/divyanshi.kamra.7/"
+    linkedin: "https://www.linkedin.com/in/divyanshi-kamra-36268b1b3/"
+
+  - title : "Vrinda Goel"
+    image : "assets/images/team/Vrinda Goel.jpeg"
+    designation : "Convener"
+    github : "https://github.com/vrinda01go?tab=repositories"
+    facebook: "https://www.facebook.com/vrinda.goel.7967/"
+    linkedin : "https://www.linkedin.com/in/vrinda-goel-2956ab209/"
+
+  - title : "Shreedhar Malpani"
+    image : "assets/images/team/Shreedhar Malpani.jpg"
+    designation : "Convener"
+    github: "https://github.com/shreedharmalpani"
+    facebook: "https://www.facebook.com/pranav.malpani.798/"
+    linkedin : "https://www.linkedin.com/in/shreedhar-malpani-23a139209/"
+
+  - title : "Karrthik Arya"
+    image : "assets/images/team/Karrthik Arya.jpg"
+    designation : "Convener"
+    github: "https://github.com/Karrthik-Arya"
+    facebook: "https://www.facebook.com/karrthik.arya/"
+    linkedin : "https://www.linkedin.com/in/karrthik-arya-30997320b/"
+
+  - title : "Sarthak Mehrotra"
+    image : "assets/images/team/Sarthak.jpeg"
+    designation : "Convener"
+    github: "https://github.com/SarthakM320"
+    facebook: "https://www.facebook.com/sarthak.mehrotra.39750/"
+    linkedin : "https://www.linkedin.com/in/sarthak-mehrotra-a4a01120b/"
+
+  - title : "Subarno Nath Roy"
+    image : "assets/images/team/Subarno Nath Roy.jpg"
+    designation : "Convener"
+    github: "https://github.com/SubarnoNR"
+    facebook: "https://www.facebook.com/subarno.nathroy/"
+    linkedin : "https://www.linkedin.com/in/subarno-nath-roy-46b73ba/"
+
+  - title : "Shubh Kumar"
+    image : "assets/images/team/Shubh Kumar.jpg"
+    designation : "Convener"
+    github: "https://github.com/thevaliantthird"
+    facebook: "https://www.facebook.com/profile.php?id=100057361624828"
+    linkedin : "https://www.linkedin.com/in/shubh-kumar-526052b5/"
+
+  - title : "Ishit Garg"
+    image : "assets/images/team/Ishit Garg.jpeg"
+    designation : "Convener"
+    github: "https://github.com/ishit16"
+    facebook: "https://www.facebook.com/ishit.garg.18"
+    linkedin : "https://www.linkedin.com/in/ishit-garg-a4120b201/"
+
+  - title : "Himanshu Choudhary"
+    image : "assets/images/team/Himanshu_Choudhary.jpg"
+    designation : "Convener"
+    github: "https://github.com/HimanshuC22"
+    facebook: "https://www.facebook.com/profile.php?id=100011777830160"
+    linkedin : "https://www.linkedin.com/in/himanshu-choudhary-26514813a/"
+
+  - title : "Ved Khandekar"
+    image : "assets/images/team/Ved Khandekar.jpeg"
+    designation : "Convener"
+    github: "https://github.com/vedk"
+    facebook: "https://www.facebook.com/ved.khandekar.1/"
+    linkedin : "https://www.linkedin.com/in/ved-khandekar-29824612b/"
+
+  - title : "Jash Kabra"
+    image : "assets/images/team/Jash_Kabra.jpg"
+    designation : "Volunteer"
+    github: "https://github.com/JashKabra"
+    facebook: "https://www.facebook.com/JashKabra/"
+    linkedin : "https://www.linkedin.com/in/jash-kabra-148a32207/"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Sub-Groups
+experience:
+- {name: DevCom, icon: 'icon-1.png', link: 'devcom-iitb.org'}
+- {name: GSoC Incubation Cell, icon: 'gsoc.png', link: 'https://www.facebook.com/groups/172338573292734/'}
+- {name: BlockChain Circle, icon: 'icon-2.jpg', link: ' https://www.facebook.com/groups/Blockchain.IITB/' }
+
+
+#-------------------------------
+# Education Section
+
+education-title: Fun Facts!!
+education:
+- {name: Number of Wiki Articles, organization: '110+'}
+- {name: Number of Github repos, organization: '45+'}
+
+
+#-------------------------------
+# Services Section
+
+services-title: Team
+services:
+- {
+    name: UI Design,
+    icon: ti-palette,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+- {
+    name: UX Design,
+    icon: ti-vector,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: true # Add true to select section
+  }
+- {
+    name: Interaction Design,
+    icon: ti-panel,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# SoC (Section and Page)
+
+# About SoC Section
+about-soc-what-is-soc:
+  Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The incentive is similar to ITSP, based on the current form of it, the fundamental difference is that one can choose from the ideas offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. We plan to have a really long timeframe though, until the next winter extending this programme into a mentorship of sorts into the semester. It is not just about development by the way. We have some mentors ready to take up programmes regarding competitive coding and scientific computation too.
+about-soc-why-participate:
+  Seasons of Code gives you an amazing opportunity to learn and dive into coding under the mentorship of the best in our institute. Our list of projects gives you a chance to pick up and work on any topic you are enthusiastic about.
+
+
+# SoC Home Section
+soc-home-items:
+  - image : "assets/images/soc/item-1.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-2.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-3.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-4.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-5.png"
+    url: "#"
+
+
+# SoC Page
+soc-label:
+- {
+    title : "ML",
+    type : "Machine Learning"
+  }
+- {
+    title : "DEVELOPMENT",
+    type : "Development"
+  }
+- {
+    title : "GRAPHICS",
+    type : "Graphics"
+  }
+- {
+    title : "MISCELLANEOUS",
+    type : "Miscellaneous"
+  }
+-  {
+    title : "2020",
+    type : "2020"
+  }
+-  {
+    title : "2021",
+    type : "2021"
+  }
+
+soc-items:
+  - title : "Introduction to Web Development"
+    image_small: "assets/images/soc/2021/small_item-1.jpg"
+    image : "assets/images/soc/2021/item-1.jpg"
+    url: "/soc/projects/2021/project-1"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "(Un)Clear"
+    image_small: "assets/images/soc/2021/small_item-2.png"
+    image : "assets/images/soc/2021/item-2.png"
+    url: "/soc/projects/2021/project-2"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Goal ICPC"
+    image_small: "assets/images/soc/2021/small_item-3.png"
+    image : "assets/images/soc/2021/item-3.png"
+    url: "/soc/projects/2021/project-3"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Traffic congestion modelling and rendering"
+    image_small: "assets/images/soc/2021/small_item-4.jpg"
+    image : "assets/images/soc/2021/item-4.jpg"
+    url: "/soc/projects/2021/project-4"
+    soc-type:
+     - type: "Development" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "PyRated"
+    image_small: "assets/images/soc/2021/small_item-5.png"
+    image : "assets/images/soc/2021/item-5.png"
+    url: "/soc/projects/2021/project-5"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Tools for Data Science"
+    image_small: "assets/images/soc/2021/small_item-6.png"
+    image : "assets/images/soc/2021/item-6.png"
+    url: "/soc/projects/2021/project-6"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Machine Learning Based Metropolitan Air Pollution Estimation"
+    image_small: "assets/images/soc/2021/small_item-7.jpg"
+    image : "assets/images/soc/2021/item-7.jpg"
+    url: "/soc/projects/2021/project-7"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Graphics" 
+     - type: "2021"
+
+  - title : "Audio Controlled Drone"
+    image_small: "assets/images/soc/2021/small_item-8.jpeg"
+    image : "assets/images/soc/2021/item-8.jpeg"
+    url: "/soc/projects/2021/project-8"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "NLPlay with Transformers"
+    image_small: "assets/images/soc/2021/small_item-9.png"
+    image : "assets/images/soc/2021/item-9.png"
+    url: "/soc/projects/2021/project-9"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+  
+  - title : "Why The Hype Around GANs"
+    image_small: "assets/images/soc/item-1_small.png"
+    image : "assets/images/soc/item-1.png"
+    url: "/soc/projects/why-the-hype-around-gans/"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "3D reconstruction using 2D images"
+    image_small: "assets/images/soc/item-2_small.png"
+    image : "assets/images/soc/item-2.png"
+    url: "/soc/projects/3d-reconstruction-using-2d-images/"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Computer Vision Workbench"
+    image_small: "assets/images/soc/item-3_small.png"
+    image : "assets/images/soc/item-3.png"
+    url: "/soc/projects/computer-vision-workbench/"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+
+  - title : "3D Object Classification using Mesh Neural Network"
+    image_small: "assets/images/soc/item-4_small.png"
+    image : "assets/images/soc/item-4.png"
+    url: "/soc/projects/mesh-neural-network/"
+    soc-type:
+     - type: "Machine Learning"     
+     - type: "2020"
+
+  - title : "Lossless high entropy compression algorithm"
+    image_small: "assets/images/soc/item-5_small.png"
+    image : "assets/images/soc/item-5.png"
+    url: "/soc/projects/lossless-high-entropy-compression-algorithm"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Tools for Web Development"
+    image_small: "assets/images/soc/item-6_small.png"
+    image : "assets/images/soc/item-6.png"
+    url: "/soc/projects/tools-for-web-dev/"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+  - title : "ML GYM"
+    image_small: "assets/images/soc/item-7_small.png"
+    image : "assets/images/soc/item-7.png"
+    url: "/soc/projects/ml-gym"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Strategy Wars [Online]"
+    image_small: "assets/images/soc/item-8_small.png"
+    image : "assets/images/soc/item-8.png"
+    url: "/soc/projects/strategy-wars"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+
+  - title : "Super Shenron"
+    image_small: "assets/images/soc/item-9_small.png"
+    image : "assets/images/soc/item-9.png"
+    url: "/soc/projects/super-shenron"
+    soc-type:
+     - type: "Develppment"
+     - type: "2020"
+
+  - title : "Gestures for 3D space"
+    image_small: "assets/images/soc/item-10_small.gif"
+    image : "assets/images/soc/item-10.gif"
+    url: "/soc/projects/gestures-for-3d-space"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Development"
+     - type: "Graphics"
+     - type: "2020"
+
+  - title : "Food Recommendation through Machine Learning"
+    image_small: "assets/images/soc/item-11_small.png"
+    image : "assets/images/soc/item-11.png"
+    url: "/soc/projects/food-recommendation-through-machine-learning"
+    soc-type:
+     - type: "Development"          
+     - type: "Machine Learning"
+     - type: "2020"
+      
+  - title : "Conversational Chatbot"
+    image_small: "assets/images/soc/item-12_small.png"
+    image : "assets/images/soc/item-12.png"
+    url: "/soc/projects/conversational-chatbot/"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+
+  - title : "(Un)structured"
+    image_small: "assets/images/soc/item-13_small.png"
+    image : "assets/images/soc/item-13.png"
+    url: "/soc/projects/unstructured"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Road Network 3D Rendering using OpenGL"
+    image_small: "assets/images/soc/item-14_small.png"
+    image : "assets/images/soc/item-14.png"
+    url: "/soc/projects/road-network-3d-rendering-using-opengl"
+    soc-type:
+     - type: "Graphics"
+     - type: "2020"
+     - type: "2020"
+
+
+  - title : "Virtual Keyboard"
+    image_small: "assets/images/soc/item-15_small.png"
+    image : "assets/images/soc/item-15.png"
+    url: "/soc/projects/virtual-keyboard"
+    soc-type:
+     - type: "Miscellaneous"
+     - type: "2020"
+
+  - title : "Introduction to Kaggle and Machine Learning"
+    image_small: "assets/images/soc/item-16_small.png"
+    image : "assets/images/soc/item-16.png"
+    url: "/soc/projects/introduction-to-kaggle-and-machine-learning"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Krittika Website"
+    image_small: "assets/images/soc/item-17_small.png"
+    image : "assets/images/soc/item-17.png"
+    url: "/soc/projects/krittika-website"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+  - title : "Competitive coding"
+    image_small: "assets/images/soc/item-18_small.png"
+    image : "assets/images/soc/item-18.png"
+    url: "/soc/projects/competitive-coding"
+    soc-type:
+     - type: "Miscellaneous"  
+     - type: "2020"
+
+  - title : "Planet/Atmosphere Renderer using OpenGL"
+    image_small: "assets/images/soc/item-19_small.png"
+    image : "assets/images/soc/item-19.png"
+    url: "/soc/projects/planet-atmosphere-renderer-using-opengl"
+    soc-type:
+     - type: "Graphics"   
+     - type: "2020"
+
+  - title : "Intrusion Detection system"
+    image_small: "assets/images/soc/item-20_small.png"
+    image : "assets/images/soc/item-20.png"
+    url: "/soc/projects/intrusion-detection-system"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Rubik's cube solver"
+    image_small: "assets/images/soc/item-21_small.png"
+    image : "assets/images/soc/item-21.png"
+    url: "/soc/projects/rubiks-cube-solver"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "L.A.M.A. AI using Reinforcement Learning"
+    image_small: "assets/images/soc/item-22_small.png"
+    image : "assets/images/soc/item-22.png"
+    url: "/soc/projects/lama-ai"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Development"
+     - type: "2020"
+
+  - title : "Face Recognition using Statistics"
+    image_small: "assets/images/soc/item-23_small.png"
+    image : "assets/images/soc/item-23.png"
+    url: "/soc/projects/face-recognition-using-statistics"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Tinkerers’ Laboratory Website"
+    image_small: "assets/images/soc/item-24_small.png"
+    image : "assets/images/soc/item-24.png"
+    url: "/soc/projects/TL-website"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+  - title : "Graphic Intensive MUSIC APP"
+    image_small: "assets/images/soc/item-25_small.png"
+    image : "assets/images/soc/item-25.png"
+    url: "/soc/projects/graphic-intensive-music-app"
+    soc-type:
+     - type: "Graphics"
+     - type: "Development" 
+     - type: "2020"
+
+  - title : "KontaKt App"
+    image_small: "assets/images/soc/item-26_small.png"
+    image : "assets/images/soc/item-26.png"
+    url: "/soc/projects/kontakt-app"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"  
+     - type: "2020"
+
+  - title : "Pool It!"
+    image_small: "assets/images/soc/item-27_small.png"
+    image : "assets/images/soc/item-27.png"
+    url: "/soc/projects/pool-it"
+    soc-type:
+     - type: "Development"   
+     - type: "2020"
+
+  - title : "Digital Depth Perception"
+    image_small: "assets/images/soc/item-28_small.png"
+    image : "assets/images/soc/item-28.png"
+    url: "/soc/projects/digital-depth-perception"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2020"
+
+  - title : "Insti Buddy"
+    image_small: "assets/images/soc/item-29_small.png"
+    image : "assets/images/soc/item-29.png"
+    url: "/soc/projects/insti-buddy"
+    soc-type:
+     - type: "Development" 
+     - type: "2020"
+
+  - title : "Intelligent agents"
+    image_small: "assets/images/soc/item-30_small.png"
+    image : "assets/images/soc/item-30.png"
+    url: "/soc/projects/intelligent-agents"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2020"
+
+
+  - title : "Browser Based PDF Manager"
+    image_small: "assets/images/soc/2021/small_item-26.jpeg"
+    image : "assets/images/soc/2021/item-26.jpeg"
+    url: "/soc/projects/2021/project-26"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+
+  - title : "Resume Script Generator"
+    image_small: "assets/images/soc/2021/small_item-27.webp"
+    image : "assets/images/soc/2021/item-27.webp"
+    url: "/soc/projects/2021/project-27"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Competative Coding"
+    image_small: "assets/images/soc/2021/small_item-28.png"
+    image : "assets/images/soc/2021/item-28.png"
+    url: "/soc/projects/2021/project-28"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Deep reinforcement learning - 2048 AI"
+    image_small: "assets/images/soc/2021/small_item-29.jpg"
+    image : "assets/images/soc/2021/item-29.jpg"
+    url: "/soc/projects/2021/project-29"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Reinforcement Learning to Finance"
+    image_small: "assets/images/soc/2021/small_item-30.png"
+    image : "assets/images/soc/2021/item-30.png"
+    url: "/soc/projects/2021/project-30"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Physicc - A Simple Physics Engine"
+    image_small: "assets/images/soc/2021/small_item-31.jpeg"
+    image : "assets/images/soc/2021/item-31.jpeg"
+    url: "/soc/projects/2021/project-31"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Image Colorization"
+    image_small: "assets/images/soc/2021/small_item-32.png"
+    image : "assets/images/soc/2021/item-32.png"
+    url: "/soc/projects/2021/project-32"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Language Model Based Syntax Autocompletion in a Text Editor"
+    image_small: "assets/images/soc/2021/small_item-33.png"
+    image : "assets/images/soc/2021/item-33.png"
+    url: "/soc/projects/2021/project-33"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Computer vision based web app"
+    image_small: "assets/images/soc/2021/small_item-34.jpeg"
+    image : "assets/images/soc/2021/item-34.jpeg"
+    url: "/soc/projects/2021/project-34"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Techster Texter"
+    image_small: "assets/images/soc/2021/small_item-35.jpeg"
+    image : "assets/images/soc/2021/item-35.jpeg"
+    url: "/soc/projects/2021/project-35"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Language Detection"
+    image_small: "assets/images/soc/2021/small_item-36.jpg"
+    image : "assets/images/soc/2021/item-36.jpg"
+    url: "/soc/projects/2021/project-36"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Book Tracker"
+    image_small: "assets/images/soc/2021/small_item-37.jpg"
+    image : "assets/images/soc/2021/item-37.jpg"
+    url: "/soc/projects/2021/project-37"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "ResoBin - Not the bin we deserve but the bin we need!"
+    image_small: "assets/images/soc/2021/small_item-38.jpg"
+    image : "assets/images/soc/2021/item-38.jpg"
+    url: "/soc/projects/2021/project-38"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Cribbit Cribbit (Open for PGs Only)"
+    image_small: "assets/images/soc/2021/small_item-39.png"
+    image : "assets/images/soc/2021/item-39.png"
+    url: "/soc/projects/2021/project-39"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+  
+  - title : "Moodify"
+    image_small: "assets/images/soc/2021/small_item-40.png"
+    image : "assets/images/soc/2021/item-40.png"
+    url: "/soc/projects/2021/project-40"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Agree to Disagree"
+    image_small: "assets/images/soc/2021/small_item-41.jpg"
+    image : "assets/images/soc/2021/item-41.jpg"
+    url: "/soc/projects/2021/project-41"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Unscripted"
+    image_small: "assets/images/soc/2021/small_item-42.png"
+    image : "assets/images/soc/2021/item-42.png"
+    url: "/soc/projects/2021/project-42"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Watson (World's smartest assistant in your pocket)"
+    image_small: "assets/images/soc/2021/small_item-43.png"
+    image : "assets/images/soc/2021/item-43.png"
+    url: "/soc/projects/2021/project-43"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Introduction to App Development"
+    image_small: "assets/images/soc/2021/small_item-44.jpg"
+    image : "assets/images/soc/2021/item-44.jpg"
+    url: "/soc/projects/2021/project-44"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "IITinder"
+    image_small: "assets/images/soc/2021/small_item-45.jpeg"
+    image : "assets/images/soc/2021/item-45.jpeg"
+    url: "/soc/projects/2021/project-45"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "BriefKing"
+    image_small: "assets/images/soc/2021/small_item-46.jpeg"
+    image : "assets/images/soc/2021/item-46.jpeg"
+    url: "/soc/projects/2021/project-46"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+     
+   
+  - title : "Meta Learning - Learning to Learn"
+    image_small: "assets/images/soc/2021/small_item-47.jpeg"
+    image : "assets/images/soc/2021/item-47.jpeg"
+    url: "/soc/projects/2021/project-47"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "Break free of the matrix, by building one!"
+    image_small: "assets/images/soc/2021/small_item-48.jpeg"
+    image : "assets/images/soc/2021/item-48.jpeg"
+    url: "/soc/projects/2021/project-48"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "Procedurally Generated Infinite Open World"
+    image_small: "assets/images/soc/2021/small_item-49.jpeg"
+    image : "assets/images/soc/2021/item-49.jpeg"
+    url: "/soc/projects/2021/project-49"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "PAC MAN"
+    image_small: "assets/images/soc/2021/small_item-50.png"
+    image : "assets/images/soc/2021/item-50.png"
+    url: "/soc/projects/2021/project-50"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+     
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Seasons of Code"
+    image: "assets/images/testimonial/SoC (1).png"
+    designation: " "
+    content: "Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The idea is that one can choose from the projects offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. The projects floated span several genres, including Development, Scientific Computation, Machine Learning and Open Source. With most of the projects running in summer, we’ve also had projects that have extended into the semester and some in winter."
+  
+  - name: "WnCC Wiki- Grundy"
+    image: "assets/images/testimonial/Grundy.png"
+    designation : " "
+    content : "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
+   
+  - name: "Learner's Space"
+    image: "assets/images/testimonial/ls (1).png"
+    designation: " "
+    content: " Learners’ Space, is a programme done in collaboration with the Career cell, where enthusiastic students can pursue courses of their interest. It serves as an excellent platform for students to learn new things and make the most out of summer vacations. WnCC runs courses on a variety of topics ranging from Python, Machine Learning to Web/App development. Material (Tutorials, References & Documentation) is released, along with weekly assignments/projects allowing students to implement all that they have learned. " 
+  
+  - name: "Newsletter"
+    image: "assets/images/testimonial/news (1).png"
+    designation: " "
+    content: "WnCC runs a fortnightly newsletter keep people updated with the latest tech and coding info . It contains some very interesting and innovative articles and developments related to programming. "
+  
+  - name: "Code in Quarantine"
+    image: "assets/images/testimonial/ciq (1).jpg"
+    designation: " "
+    content: "Code in Quarantine was a venture by WnCC aimed to help people begin their journey in programming. It spanned 8 weeks and covered a variety of topics such as Machine Learning, Competitive Programming, Web development, Blockchain etc. Beginner friendly resources and tutorials were shared along with tasks to help strengthen the concepts. "
+
+  - name: "Reflections"
+    image: "assets/images/testimonial/reflections (1).jpg"
+    designation: " "
+    content: "Reflections are our beloved series of informal events that aim to give one an idea of the breadth of Computer Science. These are mostly conducted in Hostel Lounges, where speakers discuss about their CS research projects conducted as RnDs or internships. The problems discussed are usually very specific, but the discussion often covers an overview, providing a general understanding of the topic."
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/walmartlabs.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/facebook.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/mozilla.jpg"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/microsoft.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/lenovo.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/yahoo_japan.png"
+    url: "#"
+        
+  - logo: "assets/images/clients-logo/xlab.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/gdgmumbai.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/globalcyberchallenge.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/kandy.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/intertrust.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/mercari.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/sap.jpg"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/ubisoft.jpg"
+    url: "#"
+
+#-------------------------------
+# Resources Section
+
+resources-items:
+  - title: "WnCC Wiki- Grundy"
+    fdis: "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
+    name: "wiki"
+    ldis: "We have articles covering tutorials covering most of basic Programming Languages, software and practices and we keep adding more and more so that everyone can use. Do visit to know more about it"
+    btn-title: "Visit Grundy"
+    btn-link: "https://www.wncc-iitb.org/wiki/index.php/The_Web_and_Coding_Club"
+    
+  - title: "Code inQuarantine()"
+    fdis: "In the time of Lockdown, WnCC started a two month long open-for-all event so that everyone can utilize their quarantine time learning coding skills. Here are few topics from them"
+    name: "ciq"
+    ldis: "In these 8 weeks we provided tutorials for 8 diverse topics: Python; Competitive Programming; Machine Learning; Git/GitHub; FrontEnd Dev; BackEnd Dev; Advanced FrontEnd Dev; Blockchain; In each tutorial, links containing some beginner-friendly resources were shared, along with a task to assess learning. Do visit to learn about them!"
+    btn-title: "View All"
+    btn-link: "https://github.com/wncc/CodeInQuarantine"
+    
+  - title: "Algorithms Simplified"
+    fdis: "Algorithms Simplified series contains short videos trivially explaining some mind-blowing yet intuitive algorithms. This is a series where we do not require you to code. You can just watch a 15-20 min video to learn something cool, that’s it! Even if you want to code and implement those algorithms, we got it covered. We have shared some optional tasks in a ‘Dive Deep’ section as well."
+    name: "as"
+    ldis: "We have over 8+ algorithms simplified here and we keep adding algos regularly. Do visit timely to learn :) "
+    btn-title: "Visit Algorithms Simplified"
+    btn-link: "https://github.com/wncc/CodeInQuarantine"
+    
+  - title: "Learner's Space 2020"
+    fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a two months long technical summer school with Web and Coding Club in summers 2020. In this, week wise tutorials of python, machine learning and web development, three of the most hot-tech-skills, were provided to more then 600 students."
+    name: "ls"
+    ldis: "These tutorials contain mixture of important articles, videos and assignments that can help understand these topics better and content is divided week-wise to manage time. If you are looking for learning one of these skills, then these resources can help you find easy and nice content."
+    btn-title: "Get Started"
+    btn-link: "https://github.com/wncc/learners-space"
+    
+  # - title: ""
+  #   first-discription: ""
+  #   name: ""
+  #   last-discription: ""
+  #   btn-title: ""
+  #   btn-link: ""
+
+wiki:
+  - title: "Programming_101"
+    discription: "This is a comprehensive (hopefully) guide to starting out as a newbie in this giant world of programming. Remember, in this page we will not teach you how to code. Instead, we will direct you to some amazing tutorials online along with some personalized inputs on the general procedure."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Programming_101"
+    image: "wiki1.png"
+
+  - title: "DC++ Setup"
+    discription: "DC++ is a free file sharing application that is used extensively within IIT Bombay. There are several DC++ hubs within IIT Bombay that can only be accessed using the IITB LAN. The benefits of using DC++ are high transfer speeds and content curated by various students."
+    link: "https://www.wncc-iitb.org/wiki/index.php/DC%2B%2B_Setup"
+    image: "wiki2.png"
+
+  - title: "GSoC Project"
+    discription: "This is a comprehensive list of GSoC projects our community has worked upon / recommends. We have tried to add our completion blog as well wherever relevant. We have a separate Open Source guide to get you started."
+    link: "https://www.wncc-iitb.org/wiki/index.php/GSoC_Projects"
+    image: "wiki3.png"
+
+  - title: "Software Engineering Without CS Major"
+    discription: "As the name suggest, the article deeply explains how you can be a Software Engineer without a CS Major degree by following these steps mentioned for each of your 3rd to 8th semester in your degree of any specialisation and in any college."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Software_Engineering_Without_CS_Major"
+    image: "wiki4.png"
+ 
+  - title: "Introduction to Git/Github"
+    discription: "This article lists some excellent tutorials to learn Git/Github, along with some practical advice for the same. Learning git will help you pick up any version control system easily, teach you to make larger projects effectively as well as contribute to massive open source projects."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Git"
+    image: "wiki5.png"
+
+  - title: "Community Resources"
+    discription: "Our community has made a number of blogs with excellent tutorials, hacks and guidelines. This article is a comprehensive list of tutorials arranged topic wise. All slides and video tutorials are also tagged."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Community_Resources"
+    image: "wiki6.png"
+
+
+ciq:
+  - title: "Python"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_1_Python/README.md"
+    image: "ciq1.png"
+
+  - title: "Competitive Programming"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_2_CC/README.md"
+    image: "ciq2.png"
+
+  - title: "Machine Learning"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_3_ML/README.md"
+    image: "ciq3.png"
+
+  - title: "Backend Development"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_6_Backend/README.md"
+    image: "ciq4.png"
+
+  - title: "Advanced FrontEnd Development"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_7_CC/README.md"
+    image: "ciq5.png"
+
+  - title: "BlockChain"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_8_Blockchain/README.md"
+    image: "ciq6.png"
+
+as:
+  - title: "Heuristic Search"
+    discription: "Heuristic search refers to a search strategy that attempts to optimize a problem by iteratively improving the solution based on a given heuristic function or a cost measure. A heuristic search method does not always guarantee to find an optimal or the best solution, but may instead find a good or acceptable solution within a reasonable amount of time and memory space."
+    link: "https://github.com/wncc/algos-simplified/blob/master/Heuristic-Algorithms/README.md"
+    image: "as1.png"  
+  
+  - title: "Encryption"
+    discription: "Looking forward to explore Cyber Security? Bringing to you Encryption Algorithms to lay some foundation about how things happen in CSec. Encryption algorithms are used in cryptography to transfer information between two people such that the thord person trying to steal information from you doesn't get the information."
+    link: "https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md"
+    image: "as2.png"  
+  
+  - title: "Object Detection"
+    discription: "Have you ever wondered how an automonous car detects other cars on the road, the traffic lights and pedestrians? Have you ever given a thought how does security surveillance systems work? Object detection is associated with Computer Vision and describes a system that can identify the presence and location of a desired object or body within an image."
+    link: "https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md"
+    image: "as3.png"
+    
+ls:
+  - title: "Python"
+    discription: ""
+    link: "https://github.com/wncc/learners-space/tree/master/Python"
+    image: "ls1.jpg"  
+
+  - title: "Web Development"
+    discription: ""
+    link: "https://github.com/wncc/learners-space/tree/master/Web%20Development"
+    image: "ls2.jpg"  
+
+  - title: "Machine Learning"
+    discription: ""
+    link: "https://github.com/wncc/learners-space/tree/master/Machine%20Learning"
+    image: "ls3.png"  
+
+  
+
+
+#-------------------------
+# Events Section
+event-labels:
+- {
+    title : "2018",
+    type : "2018"
+  }
+- {
+    title : "2019",
+    type : "2019"
+  }
+- {
+    title : "2020",
+    type : "2020"
+  }
+  
+events-items:
+    # 2020 events
+  - title: "Git/GitHub Workshop"
+    image: "assets/images/events/git.jpeg"
+    description: "A session on Introducing Git and GitHub as a Version Control System for better code management among organizations and individuals"
+    url: "/events/event/git-github-workshop/"
+    event-type:
+      - type: "2020"
+  - title: "QnA with Kalpesh"
+    image: "assets/images/events/qna_with_kalpesh.png"
+    description: "Kalpesh Krishna, ex-WnCC Manager gives a talk on CS opportunities for Non-CS students, and how one can get into Computer Science Research from a different field"
+    url: "/events/event/qna-with-kalpesh/"
+    event-type:
+      - type: "2020"
+  - title: "CovidTalks"
+    image: "assets/images/events/insti_against_covid.png"
+    description: "During the COVID-19 Pandemic, some professors and students of IIT Bombay were working on novel ways to tackle the problems due to the pandemic. Prof. Manoj Gopalakrishnan gives a talk on his project"
+    url: "/events/event/instiAgainstCOVID19/"
+    event-type:
+      - type: "2020" 
+
+    # 2019 events
+   
+    
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: wncc@iitb.ac.in

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Seasons of Code</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="icon" href="/assets/images/logo.png">
+
+  <style>
+  @media screen and (max-width: 767px) {
+    .scroll{
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+    }
+  }
+  </style>
+
+</head>
+
+<body>
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      
+      <a href = "/">
+        <img src="/assets/images/logo.png" alt="WnCC IIT Bombay">
+        </a>
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/resources/">Resources</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/soc/">SoC</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/events/">Events</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/blogs/">Code::Blogs</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#team">Team</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#contact">Contact</a>
+          </li>
+        
+      </ul>
+    </div>
+    <div class = "side-bar">
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
+    
+      <aside class="box">
+      <label for="toggle" class="toggle"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
+      <section>
+        <p class="box__item" id ="anouncement">Announcements</p>
+        <p class="lead display-5">
+          <ul style = "list-style-type: disc; font-size: 20px;" class="box__item">
+            <li><a class = "anouncement-item" href = "/blogs/" class=" display-5" ><strong>Roadmap-2 Released</strong></a></li>
+          <li><a class = "anouncement-item" target = "_blank" href = "https://discord.gg/fHUH46xyGD" ><strong>Click Here to join our Discord channel!!</strong></a></li>
+          </ul>
+        </p>
+        </section>
+      </aside>
+      </div>
+  </nav>
+
+  <script>
+    function theme(){
+      var dark = "true";
+      if(dark === "true"){
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+  </script>
+</header>
+
+<!-- page title -->
+
+    <!-- background shapes 
+    <img src="/assets/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+    <img src="/assets/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
+    <img src="/assets/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+    <img src="/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+    <img src="/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
+    <img src="/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
+    <img src="/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
+  </section>
+   /page title -->
+<div style="width: 100%; height: 200px;" class="bg-primary"></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-10 col-md-8 bg-blog">
+            <h2 class="display1 m-3 p-3 text-center customcol">A Deep Dive into CNNs</h2>
+
+
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+ <!-- soc -->
+<section class="section">
+  <div class="container">
+    <!-- <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex scroll" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary disabled" style = "pointer-events:none">
+            Topic:
+          </label>
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="Machine Learning" />ML
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="Development" />DEVELOPMENT
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="Blockchain" />BLOCKCHAIN
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="CP" />CP
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="Miscellaneous" />MISCELLANEOUS
+          </label>
+          
+        </div>
+        <br>
+        <div class="btn-group btn-group-toggle justify-content-center d-flex scroll"  data-toggle="buttons">
+          <label class="btn btn-sm btn-primary disabled" style = "pointer-events:none">
+            Year:
+          </label>
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter1" value="all" checked="checked" />All
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter1" value="2020" />2020
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter1" value="2021" />2021
+          </label>
+          
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter1" value="2022" />2022
+          </label>
+          
+        </div>
+      </div>
+    </div> -->
+    <div class="row row-eq-height shuffle-wrapper">
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/socresults/project-1-result.html" style = "height:300px">
+          <a href = "/socresults/project-1-result.html">
+          <span class="rounded"> <h5 class = "text-center">Introduction to Web Development</h5> <img src="/assets/images/soc/2021/small_item-1.jpg" alt="Introduction to Web Development" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-2-result.html" style = "height:300px">
+          <a href = "/soc-results/project-2-result.html">
+          <span class="rounded"> <h5 class = "text-center">(Un)Clear</h5> <img src="/assets/images/soc/2021/small_item-2.png" alt="(Un)Clear" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-3-result.html" style = "height:300px">
+          <a href = "/soc-results/project-3-result.html">
+          <span class="rounded"> <h5 class = "text-center">Goal ICPC</h5> <img src="/assets/images/soc/2021/small_item-3.png" alt="Goal ICPC" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-5-result.html" style = "height:300px">
+          <a href = "/soc-results/project-5-result.html">
+          <span class="rounded"> <h5 class = "text-center">PyRated</h5> <img src="/assets/images/soc/2021/small_item-5.png" alt="PyRated" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-6-result.html" style = "height:300px">
+          <a href = "/soc-results/project-6-result.html">
+          <span class="rounded"> <h5 class = "text-center">Tools for Data Science</h5> <img src="/assets/images/soc/2021/small_item-6.png" alt="Tools for Data Science" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-8-result.html" style = "height:300px">
+          <a href = "/soc-results/project-8-result.html">
+          <span class="rounded"> <h5 class = "text-center">Audio Controlled Drone</h5> <img src="/assets/images/soc/2021/small_item-8.jpeg" alt="Audio Controlled Drone" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-9-result.html" style = "height:300px">
+          <a href = "/soc-results/project-9-result.html">
+          <span class="rounded"> <h5 class = "text-center">NLPlay with Transformers</h5> <img src="/assets/images/soc/2021/small_item-9.png" alt="NLPlay with Transformers" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-10-result.html" style = "height:300px">
+          <a href = "/soc-results/project-10-result.html">
+          <span class="rounded"> <h5 class = "text-center">DIY FaceApp</h5> <img src="/assets/images/soc/2021/small_item-10.jpg" alt="DIY FaceApp" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-11-result.html" style = "height:300px">
+          <a href = "/soc-results/project-11-result.html">
+          <span class="rounded"> <h5 class = "text-center">A Deep Dive into CNNs</h5> <img src="/assets/images/soc/2021/small_item-11.jpg" alt="A Deep Dive into CNNs" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-12-result.html" style = "height:300px">
+          <a href = "/soc-results/project-12-result.html">
+          <span class="rounded"> <h5 class = "text-center">Snake AI</h5> <img src="/assets/images/soc/2021/small_item-12.jpg" alt="Snake AI" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-13-result.html" style = "height:300px">
+          <a href = "/soc-results/project-13-result.html">
+          <span class="rounded"> <h5 class = "text-center">Facial Recognition App</h5> <img src="/assets/images/soc/2021/small_item-13.jpg" alt="Facial Recognition App" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-14-result.html" style = "height:300px">
+          <a href = "/soc-results/project-14-result.html">
+          <span class="rounded"> <h5 class = "text-center">Gaming meets AI !!!</h5> <img src="/assets/images/soc/2021/small_item-14.jpg" alt="Gaming meets AI !!!" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-15-result.html" style = "height:300px">
+          <a href = "/soc-results/project-15-result.html">
+          <span class="rounded"> <h5 class = "text-center">R(ea)L Trader</h5> <img src="/assets/images/soc/2021/small_item-15.jpeg" alt="R(ea)L Trader" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-16-result.html" style = "height:300px">
+          <a href = "/soc-results/project-16-result.html">
+          <span class="rounded"> <h5 class = "text-center">Computational Geometry</h5> <img src="/assets/images/soc/2021/small_item-16.png" alt="Computational Geometry" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-17-result.html" style = "height:300px">
+          <a href = "/soc-results/project-17-result.html">
+          <span class="rounded"> <h5 class = "text-center">Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction</h5> <img src="/assets/images/soc/2021/small_item-17.png" alt="Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-19-result.html" style = "height:300px">
+          <a href = "/soc-results/project-19-result.html">
+          <span class="rounded"> <h5 class = "text-center">Astronomical Data-modelling and Interpretation</h5> <img src="/assets/images/soc/2021/small_item-19.png" alt="Astronomical Data-modelling and Interpretation" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-20-result.html" style = "height:300px">
+          <a href = "/soc-results/project-20-result.html">
+          <span class="rounded"> <h5 class = "text-center">Visual Perception for Self Driving Cars</h5> <img src="/assets/images/soc/2021/small_item-20.png" alt="Visual Perception for Self Driving Cars" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-21-result.html" style = "height:300px">
+          <a href = "/soc-results/project-21-result.html">
+          <span class="rounded"> <h5 class = "text-center">Convolutional Neural Networks and Applications</h5> <img src="/assets/images/soc/2021/small_item-21.png" alt="Convolutional Neural Networks and Applications" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-22-result.html" style = "height:300px">
+          <a href = "/soc-results/project-22-result.html">
+          <span class="rounded"> <h5 class = "text-center">Quantum Computing Algorithms</h5> <img src="/assets/images/soc/2021/small_item-22.jpg" alt="Quantum Computing Algorithms" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-23-result.html" style = "height:300px">
+          <a href = "/soc-results/project-23-result.html">
+          <span class="rounded"> <h5 class = "text-center">Algorithm Visualizer</h5> <img src="/assets/images/soc/2021/small_item-23.png" alt="Algorithm Visualizer" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-24-result.html" style = "height:300px">
+          <a href = "/soc-results/project-24-result.html">
+          <span class="rounded"> <h5 class = "text-center">Anime Club IITB Website using Django</h5> <img src="/assets/images/soc/2021/small_item-24.png" alt="Anime Club IITB Website using Django" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-26-result.html" style = "height:300px">
+          <a href = "/soc-results/project-26-result.html">
+          <span class="rounded"> <h5 class = "text-center">Browser Based PDF Manager</h5> <img src="/assets/images/soc/2021/small_item-26.jpeg" alt="Browser Based PDF Manager" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-28-result.html" style = "height:300px">
+          <a href = "/soc-results/project-28-result.html">
+          <span class="rounded"> <h5 class = "text-center">Competitive Coding</h5> <img src="/assets/images/soc/2021/small_item-28.png" alt="Competitive Coding" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-29-result.html" style = "height:300px">
+          <a href = "/soc-results/project-29-result.html">
+          <span class="rounded"> <h5 class = "text-center">Deep reinforcement learning - 2048 AI</h5> <img src="/assets/images/soc/2021/small_item-29.jpg" alt="Deep reinforcement learning - 2048 AI" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-31-result.html" style = "height:300px">
+          <a href = "/soc-results/project-31-result.html">
+          <span class="rounded"> <h5 class = "text-center">Physicc - A Simple Physics Engine</h5> <img src="/assets/images/soc/2021/small_item-31.jpeg" alt="Physicc - A Simple Physics Engine" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-32-result.html" style = "height:300px">
+          <a href = "/soc-results/project-32-result.html">
+          <span class="rounded"> <h5 class = "text-center">Image Colorization</h5> <img src="/assets/images/soc/2021/small_item-32.png" alt="Image Colorization" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-34-result.html" style = "height:300px">
+          <a href = "/soc-results/project-34-result.html">
+          <span class="rounded"> <h5 class = "text-center">Computer vision based web app</h5> <img src="/assets/images/soc/2021/small_item-34.jpeg" alt="Computer vision based web app" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-35-result.html" style = "height:300px">
+          <a href = "/soc-results/project-35-result.html">
+          <span class="rounded"> <h5 class = "text-center">Techster Texter</h5> <img src="/assets/images/soc/2021/small_item-35.jpeg" alt="Techster Texter" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-36-result.html" style = "height:300px">
+          <a href = "/soc-results/project-36-result.html">
+          <span class="rounded"> <h5 class = "text-center">Language Detection</h5> <img src="/assets/images/soc/2021/small_item-36.jpg" alt="Language Detection" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-38-result.html" style = "height:300px">
+          <a href = "/soc-results/project-38-result.html">
+          <span class="rounded"> <h5 class = "text-center">ResoBin - Not the bin we deserve but the bin we need!</h5> <img src="/assets/images/soc/2021/small_item-38.jpg" alt="ResoBin - Not the bin we deserve but the bin we need!" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-40-result.html" style = "height:300px">
+          <a href = "/soc-results/project-40-result.html">
+          <span class="rounded"> <h5 class = "text-center">Moodify</h5> <img src="/assets/images/soc/2021/small_item-40.png" alt="Moodify" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-41-result.html" style = "height:300px">
+          <a href = "/soc-results/project-41-result.html">
+          <span class="rounded"> <h5 class = "text-center">Agree to Disagree</h5> <img src="/assets/images/soc/2021/small_item-41.jpg" alt="Agree to Disagree" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-42-result.html" style = "height:300px">
+          <a href = "/soc-results/project-42-result.html">
+          <span class="rounded"> <h5 class = "text-center">Unscripted</h5> <img src="/assets/images/soc/2021/small_item-42.png" alt="Unscripted" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-44-result.html" style = "height:300px">
+          <a href = "/soc-results/project-44-result.html">
+          <span class="rounded"> <h5 class = "text-center">Introduction to App Development</h5> <img src="/assets/images/soc/2021/small_item-44.jpg" alt="Introduction to App Development" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-45-result.html" style = "height:300px">
+          <a href = "/soc-results/project-45-result.html">
+          <span class="rounded"> <h5 class = "text-center">IITinder</h5> <img src="/assets/images/soc/2021/small_item-45.jpeg" alt="IITinder" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-46-result.html" style = "height:300px">
+          <a href = "/soc-results/project-46-result.html">
+          <span class="rounded"> <h5 class = "text-center">BriefKing</h5> <img src="/assets/images/soc/2021/small_item-46.jpeg" alt="BriefKing" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-48-result.html" style = "height:300px">
+          <a href = "/soc-results/project-48-result.html">
+          <span class="rounded"> <h5 class = "text-center">Break free of the matrix, by building one!</h5> <img src="/assets/images/soc/2021/small_item-48.jpeg" alt="Break free of the matrix, by building one!" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-6 mb-4 shuffle-item" data-groups="[]">
+        <div class="rounded hover-wrapper pr-3 pl-3 pt-3 pb-3 shadow-sm bg-white border-top border-right" href="/soc-results/project-50-result.html" style = "height:300px">
+          <a href = "/soc-results/project-50-result.html">
+          <span class="rounded"> <h5 class = "text-center">PAC MAN</h5> <img src="/assets/images/soc/2021/small_item-50.png" alt="PAC MAN" class="img-fluid rounded  w-100 d-block mt-5 h-75"></span>
+          <div class="hover-overlay rounded">
+          </div>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- /soc -->
+  <!-- footer -->
+<footer class="bg-dark footer-section bg-dark-footer">
+  <div class="section">
+    <div class="container-fluid pr-4 pl-4">
+      <div class="row justify-content-around">
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text">Email</h5>
+          <p class="text-white paragraph-lg font-secondary footer-text">wncc@iitb.ac.in</p>
+        </div>
+        <div class = "col-lg-2">
+        <h4 class = "text-center footer-text">
+          <a href = "https://www.facebook.com/wncc.iitb/"><i class ="ti-facebook"></i></a>
+          <a class = "ml-4" href = "https://github.com/wncc"><i class ="ti-github"></i></a>
+          <a class = "ml-4" href = "https://www.linkedin.com/company/wncc-iitb/mycompany/"><i class ="ti-linkedin"></i></a>
+          <a class = "ml-4" href = "https://www.instagram.com/wncc.iitb/"><i class ="ti-instagram"></i></a>
+        </h4>
+        </div>
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text" style="text-align: end;">Address</h5>
+          <p class="text-white paragraph-lg font-secondary text-end footer-text" style="text-align: end;">IIT Bombay, Powai, Mumbai, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <div class="border-top text-center border-dark py-2">
+    <p class="mb-0 text-light footer-text">Copyright ©️
+      <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Web and Coding Club, IIT Bombay
+    </p>
+  </div>
+</footer>
+<!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="/assets/plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="/assets/js/script2.js"></script>
+</body>
+
+</html>

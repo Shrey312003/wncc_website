@@ -1,0 +1,2109 @@
+#-------------------------------
+# General Site Settings
+
+title: WnCC IIT Bombay
+logo: logo.png
+email: wncc@iitb.ac.in
+phone: 0000
+address: IIT Bombay, Powai, Mumbai, Maharashtra
+
+menu:
+- {name: Resources, link: '/resources/'}
+- {name: SoC, link: '/soc/'}
+- {name: Events, link: '/events/'}
+- {name: Code::Blogs, link: '/blogs/'}
+- {name: Team, link: '/#team'}
+- {name: Contact, link: '/#contact'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Web and <br> Coding Club <br> <font color = '#ffa500'>IIT Bombay</font> 
+
+social:
+- {icon: "ti-facebook", link: "https://www.facebook.com/wncc.iitb"}
+- {icon: "ti-instagram", link: "http://instagram.com/wncc.iitb"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/company/wncc-iitb/"}
+- {icon: "ti-github", link: "https://github.com/wncc"}
+
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Institute Technical Council, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start. 
+
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+    
+  - title : "Aryan Bhosale"
+    image : "assets/images/team/tty15/Aryan_Bhosale.png"
+    designation : "Convener"
+    github : "https://github.com/Hyperion0209"
+    facebook: "https://www.facebook.com/profile.php?id=100075084139651"
+    linkedin : "https://www.linkedin.com/in/aryan-bhosale-345497226 "
+
+  - title : "Aryan Goyal"
+    image : "assets/images/team/tty15/Aryan_Goyal.png"
+    designation : "Convener"
+    github: "https://github.com/aryangoyal7"
+    facebook: "https://www.facebook.com/aryanx07/"
+    linkedin : "https://www.linkedin.com/in/aryan-goyal-8429611a7/"
+
+  - title : "Chaitanya Aggarwal"
+    image : "assets/images/team/tty15/chaitanya.png"
+    designation : "Convener"
+    github: "https://github.com/Chaitanya-Aggarwal"
+    facebook: "https://www.facebook.com/chaitanya.aggarwal.940"
+    linkedin : "https://www.linkedin.com/in/chaitanya-aggarwal-991b82224/"
+
+  - title : "Navyansh Mahla"
+    image : "assets/images/team/tty15/Navyansh_Mahla.png"
+    designation : "Convener"
+    github: "https://github.com/navyanshmahla"
+    facebook: "https://www.facebook.com/navyansh.mahla"
+    linkedin : "https://www.linkedin.com/in/navyansh-mahla-519817223/"
+
+  - title : "Parth Pujari"
+    image : "assets/images/team/Subarno Nath Roy.jpg"
+    designation : "Convener"
+    github: "http://github.com/ParthP3"
+    facebook: "https://www.facebook.com/profile.php?id=100075941285086"
+    linkedin : "https://www.linkedin.com/in/parth-pujari-12723323a"
+
+  - title : "Shrey Aggarwal"
+    image : "assets/images/team/Shubh Kumar.jpg"
+    designation : "Convener"
+    github: "https://github.com/Shrey312003"
+    facebook: "http://facebook.com/profile.php?id=100075168486456"
+    linkedin : "https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"
+
+  - title : "Soutrik Sarangi"
+    image : "assets/images/team/Ishit Garg.jpeg"
+    designation : "Convener"
+    github: "http://github.com/soutrik-01"
+    facebook: "https://www.facebook.com/soutrik.sarangi.1/"
+    linkedin : "https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Join our Discord Server to participate in engaging coding convos, external internship opportunities, WnCC resources and much more!!!
+experience:
+- {name: Discord Server, icon: 'discord.png', link: 'https://discord.gg/fHUH46xyGD'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Achievements
+education:
+- {name: " Number of Wiki Articles", organization: '      110+'}
+- {name: Number of Github repos, organization: '45+'}
+- {name: Improving the Coding Culture, organization: 'since 15 years' }
+- {name: This year 300+ people , organization: 'Participated in SoC'}
+
+#-------------------------------
+# Services Section
+
+services-title: Team
+services:
+- {
+    name: UI Design,
+    icon: ti-palette,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+- {
+    name: UX Design,
+    icon: ti-vector,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: true # Add true to select section
+  }
+- {
+    name: Interaction Design,
+    icon: ti-panel,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# SoC (Section and Page)
+
+# About SoC Section
+about-soc-what-is-soc:
+  The incentive is similar to ITSP, based on the current form of it, the fundamental difference is that one can choose from the ideas offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. It is not just about development by the way. We have mentors to take up programmes regarding competitive coding, scientific computation etc. too.
+about-soc-why-participate:
+  Our list of projects gives you a chance to pick up and work on any topic you are enthusiastic about. You have a chance to work on a variety of topics ranging from machine learning to app development. The projects will help you enhance your knowledge and strengthen your foundations as a programmer.
+
+
+# SoC Home Section
+soc-home-items:
+  - image : "assets/images/soc/item-1.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-2.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-3.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-4.png"
+    url: "#"
+    
+  - image : "assets/images/soc/item-5.png"
+    url: "#"
+
+
+# SoC Page
+soc-type-label:
+- {
+    title : "ML",
+    type : "Machine Learning"
+  }
+- {
+    title : "DEVELOPMENT",
+    type : "Development"
+  }
+- {
+  title: "BLOCKCHAIN",
+  type: 'Blockchain'
+}
+- {
+  title: "CP",
+  type: "CP"
+}
+- {
+    title : "MISCELLANEOUS",
+    type : "Miscellaneous"
+  }
+
+soc-year-label:
+-  {
+    title : "2020",
+    type : "2020"
+  }
+-  {
+    title : "2021",
+    type : "2021"
+  }
+-  {
+    title: "2022",
+    type: "2022"
+  }
+
+soc-items:
+  #2022 projects
+  - title: "BuzzWord"
+    image_small: "assets/images/soc/2022/item221.jpg"
+    image: "assets/images/soc/2022/item221.jpg"
+    url: "/soc/projects/2022/project221"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Rendera"
+    image_small: "assets/images/soc/2022/item269.png"
+    image: "assets/images/soc/2022/item269.png"
+    url: "/soc/projects/2022/project269"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"
+
+  - title: "Object detection using Machine Learning"
+    image_small: "assets/images/soc/2022/item222.jpg"
+    image: "assets/images/soc/2022/item222.jpg"
+    url: "/soc/projects/2022/project222"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Intro to Competitive Programming"
+    image_small: "assets/images/soc/2022/item223.png"
+    image: "assets/images/soc/2022/item223.png"
+    url: "/soc/projects/2022/project223"
+    soc-type:
+      - type: "CP"
+      - type: "2022"
+
+  - title: "Text Summarization"
+    image_small: "assets/images/soc/2022/item224.jpg"
+    image: "assets/images/soc/2022/item224.jpg"
+    url: "/soc/projects/2022/project224"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Road Accident Prevention (RAP)"
+    image_small: "assets/images/soc/2022/item225.jpg"
+    image: "assets/images/soc/2022/item225.jpg"
+    url: "/soc/projects/2022/project225"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Moodify"
+    image_small: "assets/images/soc/2022/item226.png"
+    image: "assets/images/soc/2022/item226.png"
+    url: "/soc/projects/2022/project226"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Deoldify Videos"
+    image_small: "assets/images/soc/2022/item227.jpg"
+    image: "assets/images/soc/2022/item227.jpg"
+    url: "/soc/projects/2022/project227"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Developing E-commerce Website Using Django"
+    image_small: "assets/images/soc/2022/item228.png"
+    image: "assets/images/soc/2022/item228.png"
+    url: "/soc/projects/2022/project228"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "An Introduction to QC, ML, and QML"
+    image_small: "assets/images/soc/2022/item229.png"
+    image: "assets/images/soc/2022/item229.png"
+    url: "/soc/projects/2022/project229"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Resume Script Generator"
+    image_small: "assets/images/soc/2022/item230.png"
+    image: "assets/images/soc/2022/item230.png"
+    url: "/soc/projects/2022/project230"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+
+  - title: "Style It !!"
+    image_small: "assets/images/soc/2022/item241.jpeg"
+    image: "assets/images/soc/2022/item241.jpeg"
+    url: "/soc/projects/2022/project241"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Mini Motorways Solver"
+    image_small: "assets/images/soc/2022/item242.jpg"
+    image: "assets/images/soc/2022/item242.jpg"
+    url: "/soc/projects/2022/project242"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "(De)Noise"
+    image_small: "assets/images/soc/2022/item243.jpg"
+    image: "assets/images/soc/2022/item243.jpg"
+    url: "/soc/projects/2022/project243"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "CryptoCreate"
+    image_small: "assets/images/soc/2022/item244.png"
+    image: "assets/images/soc/2022/item244.png"
+    url: "/soc/projects/2022/project244"
+    soc-type:
+      - type: "Blockchain"
+      - type: "2022"
+
+  - title: "Applications of Machine Learning in Astronomy"
+    image_small: "assets/images/soc/2022/item245.jpg"
+    image: "assets/images/soc/2022/item245.jpg"
+    url: "/soc/projects/2022/project245"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "RELIV(Learning and social platform for elderly)"
+    image_small: "assets/images/soc/2022/item246.jpeg"
+    image: "assets/images/soc/2022/item246.jpeg"
+    url: "/soc/projects/2022/project246"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+  
+  - title: "Stock Market Prediction using ARIMA Model"
+    image_small: "assets/images/soc/2022/item247.jpg"
+    image: "assets/images/soc/2022/item247.jpg"
+    url: "/soc/projects/2022/project247"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "AI Race Cars"
+    image_small: "assets/images/soc/2022/item248.jpg"
+    image: "assets/images/soc/2022/item248.jpg"
+    url: "/soc/projects/2022/project248"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "CNN-lytical"
+    image_small: "assets/images/soc/2022/item254.PNG"
+    image: "assets/images/soc/2022/item254.PNG"
+    url: "/soc/projects/2022/project254"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Data Encryption program in python"
+    image_small: "assets/images/soc/2022/item249.jpg"
+    image: "assets/images/soc/2022/item249.jpg"
+    url: "/soc/projects/2022/project249"
+    soc-type:
+      - type: "Development"
+      - type: "Miscellaneous"
+      - type: "2022"
+
+  - title: "Explore the world of Web 3.0"
+    image_small: "assets/images/soc/2022/item250.webp"
+    image: "assets/images/soc/2022/item250.webp"
+    url: "/soc/projects/2022/project250"
+    soc-type:
+      - type: "Blockchain"
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Learn to Cartoonize"
+    image_small: "assets/images/soc/2022/item251.jpg"
+    image: "assets/images/soc/2022/item251.jpg"
+    url: "/soc/projects/2022/project251"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Image Editing"
+    image_small: "assets/images/soc/2022/item252.png"
+    image: "assets/images/soc/2022/item252.png"
+    url: "/soc/projects/2022/project252"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Federated Learning for Traffic Prediction and Route Planning"
+    image_small: "assets/images/soc/2022/item253.jpg"
+    image: "assets/images/soc/2022/item253.jpg"
+    url: "/soc/projects/2022/project253"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+ 
+
+  - title: "Website for tracking stock market"
+    image_small: "assets/images/soc/2022/item255.jpg"
+    image: "assets/images/soc/2022/item255.jpg"
+    url: "/soc/projects/2022/project255"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Intro to Web Development, News Café (A News Aggregator Web-App)"
+    image_small: "assets/images/soc/2022/item256.jpeg"
+    image: "assets/images/soc/2022/item256.jpeg"
+    url: "/soc/projects/2022/project256"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "CNN Based Stock Market Prediction"
+    image_small: "assets/images/soc/2022/item257.jpeg"
+    image: "assets/images/soc/2022/item257.jpeg"
+    url: "/soc/projects/2022/project257"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Light (Rendering) Engine"
+    image_small: "assets/images/soc/2022/item258.png"
+    image: "assets/images/soc/2022/item258.png"
+    url: "/soc/projects/2022/project258"
+    soc-type:
+      - type: "Development"
+      - type: "Miscellaneous"
+      - type: "2022"
+
+  - title: "threeD (Novel Scripting Language)"
+    image_small: "assets/images/soc/2022/item259.png"
+    image: "assets/images/soc/2022/item259.png"
+    url: "/soc/projects/2022/project259"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Canteen food rating system"
+    image_small: "assets/images/soc/2022/item260.jpg"
+    image: "assets/images/soc/2022/item260.jpg"
+    url: "/soc/projects/2022/project260"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Menstrual Tracker"
+    image_small: "assets/images/soc/2022/item295.jpg"
+    image: "assets/images/soc/2022/item295.jpg"
+    url: "/soc/projects/2022/project295"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "InstiCloud"
+    image_small: "assets/images/soc/2022/item262.gif"
+    image: "assets/images/soc/2022/item262.gif"
+    url: "/soc/projects/2022/project262"
+    soc-type:
+      - type: "Blockchain"
+      - type: "2022"
+
+  - title: "ParkIn"
+    image_small: "assets/images/soc/2022/item263.gif"
+    image: "assets/images/soc/2022/item263.gif"
+    url: "/soc/projects/2022/project263"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+  
+  - title: "Data Structures, Algorithms & CP"
+    image_small: "assets/images/soc/2022/item264.png"
+    image: "assets/images/soc/2022/item264.png"
+    url: "/soc/projects/2022/project264"
+    soc-type:
+      - type: "CP"
+      - type: "2022"
+
+  - title: "Full Stack Web Development"
+    image_small: "assets/images/soc/2022/item265.png"
+    image: "assets/images/soc/2022/item265.png"
+    url: "/soc/projects/2022/project265"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Introduction to Web Development(Project Portal)"
+    image_small: "assets/images/soc/2022/item266.png"
+    image: "assets/images/soc/2022/item266.png"
+    url: "/soc/projects/2022/project266"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Personality detection using data from social media"
+    image_small: "assets/images/soc/2022/item267.jpg"
+    image: "assets/images/soc/2022/item267.jpg"
+    url: "/soc/projects/2022/project267"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "File Malware Detection System"
+    image_small: "assets/images/soc/2022/item268.png"
+    image: "assets/images/soc/2022/item268.png"
+    url: "/soc/projects/2022/project268"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "Miscellaneous"
+      - type: "2022"
+  
+  
+  
+  - title: "YARE YARE"
+    image_small: "assets/images/soc/2022/item270.png"
+    image: "assets/images/soc/2022/item270.png"
+    url: "/soc/projects/2022/project270"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"
+
+  - title: "Mini-Bloomberg Terminal"
+    image_small: "assets/images/soc/2022/item271.jpg"
+    image: "assets/images/soc/2022/item271.jpg"
+    url: "/soc/projects/2022/project271"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Musify - Music Composition using AI"
+    image_small: "assets/images/soc/2022/item272.jpg"
+    image: "assets/images/soc/2022/item272.jpg"
+    url: "/soc/projects/2022/project272"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Remote Sensing and Image Visualization Using Deep Learning( AERIAL IMAGERY SEMANTIC SEGMENTATION)"
+    image_small: "assets/images/soc/2022/item273.jpeg"
+    image: "assets/images/soc/2022/item273.jpeg"
+    url: "/soc/projects/2022/project273"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Autonomous moving robot"
+    image_small: "assets/images/soc/2022/item274.jpg"
+    image: "assets/images/soc/2022/item274.jpg"
+    url: "/soc/projects/2022/project274"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "IIT-BEE"
+    image_small: "assets/images/soc/2022/item275.png"
+    image: "assets/images/soc/2022/item275.png"
+    url: "/soc/projects/2022/project275"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "CodeWars v3 Development"
+    image_small: "assets/images/soc/2022/item276.png"
+    image: "assets/images/soc/2022/item276.png"
+    url: "/soc/projects/2022/project276"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Tech-Points Portal"
+    image_small: "assets/images/soc/2022/item277.jpeg"
+    image: "assets/images/soc/2022/item277.jpeg"
+    url: "/soc/projects/2022/project277"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "BloggerHead (Intro to MERN)"
+    image_small: "assets/images/soc/2022/item278.png"
+    image: "assets/images/soc/2022/item278.png"
+    url: "/soc/projects/2022/project278"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+  
+  - title: "Loan Approval Prediction"
+    image_small: "assets/images/soc/2022/item279.png"
+    image: "assets/images/soc/2022/item279.png"
+    url: "/soc/projects/2022/project279"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "GANdualf"
+    image_small: "assets/images/soc/2022/item280.jpg"
+    image: "assets/images/soc/2022/item280.jpg"
+    url: "/soc/projects/2022/project280"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Credit Card Fraud Detection"
+    image_small: "assets/images/soc/2022/item281.png"
+    image: "assets/images/soc/2022/item281.png"
+    url: "/soc/projects/2022/project281"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Video Super Resolution"
+    image_small: "assets/images/soc/2022/item282.png"
+    image: "assets/images/soc/2022/item282.png"
+    url: "/soc/projects/2022/project282"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Neural Style Transfer for Text and Chats"
+    image_small: "assets/images/soc/2022/item283.jpeg"
+    image: "assets/images/soc/2022/item283.jpeg"
+    url: "/soc/projects/2022/project283"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "VoteChain"
+    image_small: "assets/images/soc/2022/item284.png"
+    image: "assets/images/soc/2022/item284.png"
+    url: "/soc/projects/2022/project284"
+    soc-type:
+      - type: "Blockchain"
+      - type: "2022"
+
+
+  - title: "Project Hash"
+    image_small: "assets/images/soc/2022/item231.jpg"
+    image: "assets/images/soc/2022/item231.jpg"
+    url: "/soc/projects/2022/project285"
+    soc-type:
+      - type: "CP"
+      - type: "2022"
+  
+  - title: "Competitive Coding"
+    image_small: "assets/images/soc/2022/item232.png"
+    image: "assets/images/soc/2022/item232.png"
+    url: "/soc/projects/2022/project286"
+    soc-type:
+      - type: "CP"
+      - type: "2022"
+
+  - title: "Child Face Generator"
+    image_small: "assets/images/soc/2022/item233.png"
+    image: "assets/images/soc/2022/item233.png"
+    url: "/soc/projects/2022/project287"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+  
+  - title: "Deep Reinforcement Learning for Equity Trading"
+    image_small: "assets/images/soc/2022/item234.png"
+    image: "assets/images/soc/2022/item234.png"
+    url: "/soc/projects/2022/project289"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+  
+  - title: "Numer.AI"
+    image_small: "assets/images/soc/2022/item235.jpeg"
+    image: "assets/images/soc/2022/item235.jpeg"
+    url: "/soc/projects/2022/project290"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"
+  
+  - title: "Stock Market Trend Predictor using Deep Learning"
+    image_small: "assets/images/soc/2022/item236.jpeg"
+    image: "assets/images/soc/2022/item236.jpeg"
+    url: "/soc/projects/2022/project288"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Custom Wordle"
+    image_small: "assets/images/soc/2022/item238.jpeg"
+    image: "assets/images/soc/2022/item238.jpeg"
+    url: "/soc/projects/2022/project291"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Introduction to Machine Intelligence"
+    image_small: "assets/images/soc/2022/item239.png"
+    image: "assets/images/soc/2022/item239.png"
+    url: "/soc/projects/2022/project292"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+
+  - title: "Blogified"
+    image_small: "assets/images/soc/2022/item240.jpg"
+    image: "assets/images/soc/2022/item240.jpg"
+    url: "/soc/projects/2022/project293"
+    soc-type:
+      - type: "Development"
+      - type: "2022"
+
+  - title: "Stock Market Analysis using basic Machine Learning"
+    image_small: "assets/images/soc/2022/item294.jpg"
+    image: "assets/images/soc/2022/item294.jpg"
+    url: "/soc/projects/2022/project294"
+    soc-type:
+      - type: "Machine Learning"
+      - type: "2022"
+   
+  - title: "Advances in Nuclear Fusion"
+    image_small: "assets/images/soc/2022/item296.png"
+    image: "assets/images/soc/2022/item296.png"
+    url: "/soc/projects/2022/project296"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"
+        
+  - title: "How to Sell ***** Online (Fast)"
+    image_small: "assets/images/soc/2022/item297.jpeg"
+    image: "assets/images/soc/2022/item297.jpeg"
+    url: "/soc/projects/2022/project297"
+    soc-type:
+      - type: "Miscellaneous"
+      - type: "2022"      
+  
+  
+
+  
+Done:
+    
+  # 2021 and earlier projects
+  - title : "Introduction to Web Development"
+    image_small: "assets/images/soc/2021/small_item-1.jpg"
+    image : "assets/images/soc/2021/item-1.jpg"
+    url: "/soc/projects/2021/project-1"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "(Un)Clear"
+    image_small: "assets/images/soc/2021/small_item-2.png"
+    image : "assets/images/soc/2021/item-2.png"
+    url: "/soc/projects/2021/project-2"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Goal ICPC"
+    image_small: "assets/images/soc/2021/small_item-3.png"
+    image : "assets/images/soc/2021/item-3.png"
+    url: "/soc/projects/2021/project-3"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Traffic congestion modelling and rendering"
+    image_small: "assets/images/soc/2021/small_item-4.jpg"
+    image : "assets/images/soc/2021/item-4.jpg"
+    url: "/soc/projects/2021/project-4"
+    soc-type:
+     - type: "Development" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "PyRated"
+    image_small: "assets/images/soc/2021/small_item-5.png"
+    image : "assets/images/soc/2021/item-5.png"
+    url: "/soc/projects/2021/project-5"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Tools for Data Science"
+    image_small: "assets/images/soc/2021/small_item-6.png"
+    image : "assets/images/soc/2021/item-6.png"
+    url: "/soc/projects/2021/project-6"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Machine Learning Based Metropolitan Air Pollution Estimation"
+    image_small: "assets/images/soc/2021/small_item-7.jpg"
+    image : "assets/images/soc/2021/item-7.jpg"
+    url: "/soc/projects/2021/project-7"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2021"
+
+  - title : "Audio Controlled Drone"
+    image_small: "assets/images/soc/2021/small_item-8.jpeg"
+    image : "assets/images/soc/2021/item-8.jpeg"
+    url: "/soc/projects/2021/project-8"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "NLPlay with Transformers"
+    image_small: "assets/images/soc/2021/small_item-9.png"
+    image : "assets/images/soc/2021/item-9.png"
+    url: "/soc/projects/2021/project-9"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "DIY FaceApp"
+    image_small: "assets/images/soc/2021/small_item-10.jpg"
+    image : "assets/images/soc/2021/item-10.jpg"
+    url: "/soc/projects/2021/project-10"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Graphics" 
+     - type: "2021"
+  
+  - title : "A Deep Dive into CNNs"
+    image_small: "assets/images/soc/2021/small_item-11.jpg"
+    image : "assets/images/soc/2021/item-11.jpg"
+    url: "/soc/projects/2021/project-11"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Snake AI"
+    image_small: "assets/images/soc/2021/small_item-12.jpg"
+    image : "assets/images/soc/2021/item-12.jpg"
+    url: "/soc/projects/2021/project-12"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Facial Recognition App"
+    image_small: "assets/images/soc/2021/small_item-13.jpg"
+    image : "assets/images/soc/2021/item-13.jpg"
+    url: "/soc/projects/2021/project-13"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "Gaming meets AI !!!"
+    image_small: "assets/images/soc/2021/small_item-14.jpg"
+    image : "assets/images/soc/2021/item-14.jpg"
+    url: "/soc/projects/2021/project-14"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "R(ea)L Trader"
+    image_small: "assets/images/soc/2021/small_item-15.jpeg"
+    image : "assets/images/soc/2021/item-15.jpeg"
+    url: "/soc/projects/2021/project-15"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021" 
+    
+  - title : "Computational Geometry"
+    image_small: "assets/images/soc/2021/small_item-16.png"
+    image : "assets/images/soc/2021/item-16.png"
+    url: "/soc/projects/2021/project-16"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction"
+    image_small: "assets/images/soc/2021/small_item-17.png"
+    image : "assets/images/soc/2021/item-17.png"
+    url: "/soc/projects/2021/project-17"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Si-Phy"
+    image_small: "assets/images/soc/2021/small_item-18.jpg"
+    image : "assets/images/soc/2021/item-18.jpg"
+    url: "/soc/projects/2021/project-18"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Astronomical Data-modelling and Interpretation"
+    image_small: "assets/images/soc/2021/small_item-19.png"
+    image : "assets/images/soc/2021/item-19.png"
+    url: "/soc/projects/2021/project-19"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "Visual Perception for Self Driving Cars"
+    image_small: "assets/images/soc/2021/small_item-20.png"
+    image : "assets/images/soc/2021/item-20.png"
+    url: "/soc/projects/2021/project-20"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Graphics"
+     - type: "2021"
+
+  - title : "Convolutional Neural Networks and Applications"
+    image_small: "assets/images/soc/2021/small_item-21.png"
+    image : "assets/images/soc/2021/item-21.png"
+    url: "/soc/projects/2021/project-21"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Quantum Computing Algorithms"
+    image_small: "assets/images/soc/2021/small_item-22.jpg"
+    image : "assets/images/soc/2021/item-22.jpg"
+    url: "/soc/projects/2021/project-22"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+  
+  - title : "Algorithm Visualizer"
+    image_small: "assets/images/soc/2021/small_item-23.png"
+    image : "assets/images/soc/2021/item-23.png"
+    url: "/soc/projects/2021/project-23"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+  
+  - title : "Anime Club IITB Website using Django"
+    image_small: "assets/images/soc/2021/small_item-24.png"
+    image : "assets/images/soc/2021/item-24.png"
+    url: "/soc/projects/2021/project-24"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Machine Learning in Browser"
+    image_small: "assets/images/soc/2021/small_item-25.jpeg"
+    image : "assets/images/soc/2021/item-25.jpeg"
+    url: "/soc/projects/2021/project-25"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "Development"
+     - type: "2021"
+
+  - title : "Browser Based PDF Manager"
+    image_small: "assets/images/soc/2021/small_item-26.jpeg"
+    image : "assets/images/soc/2021/item-26.jpeg"
+    url: "/soc/projects/2021/project-26"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+
+  - title : "Resume Script Generator"
+    image_small: "assets/images/soc/2021/small_item-27.webp"
+    image : "assets/images/soc/2021/item-27.webp"
+    url: "/soc/projects/2021/project-27"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Competitve Coding"
+    image_small: "assets/images/soc/2021/small_item-28.png"
+    image : "assets/images/soc/2021/item-28.png"
+    url: "/soc/projects/2021/project-28"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Deep reinforcement learning - 2048 AI"
+    image_small: "assets/images/soc/2021/small_item-29.jpg"
+    image : "assets/images/soc/2021/item-29.jpg"
+    url: "/soc/projects/2021/project-29"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Reinforcement Learning to Finance"
+    image_small: "assets/images/soc/2021/small_item-30.png"
+    image : "assets/images/soc/2021/item-30.png"
+    url: "/soc/projects/2021/project-30"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Physicc - A Simple Physics Engine"
+    image_small: "assets/images/soc/2021/small_item-31.jpeg"
+    image : "assets/images/soc/2021/item-31.jpeg"
+    url: "/soc/projects/2021/project-31"
+    soc-type:
+     - type: "Graphics"
+     - type: "Miscellaneous" 
+     - type: "2021"
+
+  - title : "Image Colorization"
+    image_small: "assets/images/soc/2021/small_item-32.png"
+    image : "assets/images/soc/2021/item-32.png"
+    url: "/soc/projects/2021/project-32"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Language Model Based Syntax Autocompletion in a Text Editor"
+    image_small: "assets/images/soc/2021/small_item-33.png"
+    image : "assets/images/soc/2021/item-33.png"
+    url: "/soc/projects/2021/project-33"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Computer vision based web app"
+    image_small: "assets/images/soc/2021/small_item-34.jpeg"
+    image : "assets/images/soc/2021/item-34.jpeg"
+    url: "/soc/projects/2021/project-34"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Techster Texter"
+    image_small: "assets/images/soc/2021/small_item-35.jpeg"
+    image : "assets/images/soc/2021/item-35.jpeg"
+    url: "/soc/projects/2021/project-35"
+    soc-type:
+     - type: "Development"
+     - type: "2021"
+
+  - title : "Language Detection"
+    image_small: "assets/images/soc/2021/small_item-36.jpg"
+    image : "assets/images/soc/2021/item-36.jpg"
+    url: "/soc/projects/2021/project-36"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Book Tracker"
+    image_small: "assets/images/soc/2021/small_item-37.jpg"
+    image : "assets/images/soc/2021/item-37.jpg"
+    url: "/soc/projects/2021/project-37"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "ResoBin - Not the bin we deserve but the bin we need!"
+    image_small: "assets/images/soc/2021/small_item-38.jpg"
+    image : "assets/images/soc/2021/item-38.jpg"
+    url: "/soc/projects/2021/project-38"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+
+  - title : "Cribbit Cribbit (Open for PGs Only)"
+    image_small: "assets/images/soc/2021/small_item-39.png"
+    image : "assets/images/soc/2021/item-39.png"
+    url: "/soc/projects/2021/project-39"
+    soc-type:
+     - type: "Developemnt" 
+     - type: "2021"
+  
+  - title : "Moodify"
+    image_small: "assets/images/soc/2021/small_item-40.png"
+    image : "assets/images/soc/2021/item-40.png"
+    url: "/soc/projects/2021/project-40"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Agree to Disagree"
+    image_small: "assets/images/soc/2021/small_item-41.jpg"
+    image : "assets/images/soc/2021/item-41.jpg"
+    url: "/soc/projects/2021/project-41"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Unscripted"
+    image_small: "assets/images/soc/2021/small_item-42.png"
+    image : "assets/images/soc/2021/item-42.png"
+    url: "/soc/projects/2021/project-42"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Watson (World's smartest assistant in your pocket)"
+    image_small: "assets/images/soc/2021/small_item-43.png"
+    image : "assets/images/soc/2021/item-43.png"
+    url: "/soc/projects/2021/project-43"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+       
+  - title : "Introduction to App Development"
+    image_small: "assets/images/soc/2021/small_item-44.jpg"
+    image : "assets/images/soc/2021/item-44.jpg"
+    url: "/soc/projects/2021/project-44"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+       
+  - title : "IITinder"
+    image_small: "assets/images/soc/2021/small_item-45.jpeg"
+    image : "assets/images/soc/2021/item-45.jpeg"
+    url: "/soc/projects/2021/project-45"
+    soc-type:
+     - type: "Development" 
+     - type: "2021"
+       
+  - title : "BriefKing"
+    image_small: "assets/images/soc/2021/small_item-46.jpeg"
+    image : "assets/images/soc/2021/item-46.jpeg"
+    url: "/soc/projects/2021/project-46"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+     
+   
+  - title : "Meta Learning - Learning to Learn"
+    image_small: "assets/images/soc/2021/small_item-47.jpeg"
+    image : "assets/images/soc/2021/item-47.jpeg"
+    url: "/soc/projects/2021/project-47"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+        
+  - title : "Break free of the matrix, by building one!"
+    image_small: "assets/images/soc/2021/small_item-48.jpeg"
+    image : "assets/images/soc/2021/item-48.jpeg"
+    url: "/soc/projects/2021/project-48"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2021"
+        
+  - title : "Procedurally Generated Infinite Open World"
+    image_small: "assets/images/soc/2021/small_item-49.jpeg"
+    image : "assets/images/soc/2021/item-49.jpeg"
+    url: "/soc/projects/2021/project-49"
+    soc-type:
+     - type: "Graphics" 
+     - type: "2021"
+        
+  - title : "PAC MAN"
+    image_small: "assets/images/soc/2021/small_item-50.png"
+    image : "assets/images/soc/2021/item-50.png"
+    url: "/soc/projects/2021/project-50"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2021"
+
+  - title : "Why The Hype Around GANs"
+    image_small: "assets/images/soc/item-1_small.png"
+    image : "assets/images/soc/item-1.png"
+    url: "/soc/projects/why-the-hype-around-gans"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "3D reconstruction using 2D images"
+    image_small: "assets/images/soc/item-2_small.png"
+    image : "assets/images/soc/item-2.png"
+    url: "/soc/projects/3d-reconstruction-using-2d-images"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Computer Vision Workbench"
+    image_small: "assets/images/soc/item-3_small.png"
+    image : "assets/images/soc/item-3.png"
+    url: "/soc/projects/computer-vision-workbench"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+
+  - title : "3D Object Classification using Mesh Neural Network"
+    image_small: "assets/images/soc/item-4_small.png"
+    image : "assets/images/soc/item-4.png"
+    url: "/soc/projects/mesh-neural-network"
+    soc-type:
+     - type: "Machine Learning"     
+     - type: "2020"
+
+  - title : "Lossless high entropy compression algorithm"
+    image_small: "assets/images/soc/item-5_small.png"
+    image : "assets/images/soc/item-5.png"
+    url: "/soc/projects/lossless-high-entropy-compression-algorithm"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Tools for Web Development"
+    image_small: "assets/images/soc/item-6_small.png"
+    image : "assets/images/soc/item-6.png"
+    url: "/soc/projects/tools-for-web-dev"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+  - title : "ML GYM"
+    image_small: "assets/images/soc/item-7_small.png"
+    image : "assets/images/soc/item-7.png"
+    url: "/soc/projects/ml-gym"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Strategy Wars [Online]"
+    image_small: "assets/images/soc/item-8_small.png"
+    image : "assets/images/soc/item-8.png"
+    url: "/soc/projects/strategy-wars"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+
+  - title : "Super Shenron"
+    image_small: "assets/images/soc/item-9_small.png"
+    image : "assets/images/soc/item-9.png"
+    url: "/soc/projects/super-shenron"
+    soc-type:
+     - type: "Develppment"
+     - type: "2020"
+
+  - title : "Gestures for 3D space"
+    image_small: "assets/images/soc/item-10_small.gif"
+    image : "assets/images/soc/item-10.gif"
+    url: "/soc/projects/gestures-for-3d-space"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Development"
+     - type: "Graphics"
+     - type: "2020"
+
+  - title : "Food Recommendation through Machine Learning"
+    image_small: "assets/images/soc/item-11_small.png"
+    image : "assets/images/soc/item-11.png"
+    url: "/soc/projects/food-recommendation-through-machine-learning"
+    soc-type:
+     - type: "Development"          
+     - type: "Machine Learning"
+     - type: "2020"
+      
+  - title : "Conversational Chatbot"
+    image_small: "assets/images/soc/item-12_small.png"
+    image : "assets/images/soc/item-12.png"
+    url: "/soc/projects/conversational-chatbot"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+
+  - title : "(Un)structured"
+    image_small: "assets/images/soc/item-13_small.png"
+    image : "assets/images/soc/item-13.png"
+    url: "/soc/projects/unstructured"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Road Network 3D Rendering using OpenGL"
+    image_small: "assets/images/soc/item-14_small.png"
+    image : "assets/images/soc/item-14.png"
+    url: "/soc/projects/road-network-3d-rendering-using-opengl"
+    soc-type:
+     - type: "Graphics"
+     - type: "2020"
+     - type: "2020"
+
+
+  - title : "Virtual Keyboard"
+    image_small: "assets/images/soc/item-15_small.png"
+    image : "assets/images/soc/item-15.png"
+    url: "/soc/projects/virtual-keyboard"
+    soc-type:
+     - type: "Miscellaneous"
+     - type: "2020"
+
+  - title : "Introduction to Kaggle and Machine Learning"
+    image_small: "assets/images/soc/item-16_small.png"
+    image : "assets/images/soc/item-16.png"
+    url: "/soc/projects/introduction-to-kaggle-and-machine-learning"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Krittika Website"
+    image_small: "assets/images/soc/item-17_small.png"
+    image : "assets/images/soc/item-17.png"
+    url: "/soc/projects/krittika-website"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+  - title : "Competitive coding"
+    image_small: "assets/images/soc/item-18_small.png"
+    image : "assets/images/soc/item-18.png"
+    url: "/soc/projects/competitive-coding"
+    soc-type:
+     - type: "Miscellaneous"  
+     - type: "2020"
+
+  - title : "Planet/Atmosphere Renderer using OpenGL"
+    image_small: "assets/images/soc/item-19_small.png"
+    image : "assets/images/soc/item-19.png"
+    url: "/soc/projects/planet-atmosphere-renderer-using-opengl"
+    soc-type:
+     - type: "Graphics"   
+     - type: "2020"
+
+  - title : "Intrusion Detection system"
+    image_small: "assets/images/soc/item-20_small.png"
+    image : "assets/images/soc/item-20.png"
+    url: "/soc/projects/intrusion-detection-system"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Rubik's cube solver"
+    image_small: "assets/images/soc/item-21_small.png"
+    image : "assets/images/soc/item-21.png"
+    url: "/soc/projects/rubiks-cube-solver"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "L.A.M.A. AI using Reinforcement Learning"
+    image_small: "assets/images/soc/item-22_small.png"
+    image : "assets/images/soc/item-22.png"
+    url: "/soc/projects/lama-ai"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "Development"
+     - type: "2020"
+
+  - title : "Face Recognition using Statistics"
+    image_small: "assets/images/soc/item-23_small.png"
+    image : "assets/images/soc/item-23.png"
+    url: "/soc/projects/face-recognition-using-statistics"
+    soc-type:
+     - type: "Machine Learning"
+     - type: "2020"
+
+  - title : "Tinkerers’ Laboratory Website"
+    image_small: "assets/images/soc/item-24_small.png"
+    image : "assets/images/soc/item-24.png"
+    url: "/soc/projects/TL-website"
+    soc-type:
+     - type: "Development"
+     - type: "2020"
+
+  - title : "Graphic Intensive MUSIC APP"
+    image_small: "assets/images/soc/item-25_small.png"
+    image : "assets/images/soc/item-25.png"
+    url: "/soc/projects/graphic-intensive-music-app"
+    soc-type:
+     - type: "Graphics"
+     - type: "Development" 
+     - type: "2020"
+
+  - title : "KontaKt App"
+    image_small: "assets/images/soc/item-26_small.png"
+    image : "assets/images/soc/item-26.png"
+    url: "/soc/projects/kontakt-app"
+    soc-type:
+     - type: "Development"
+     - type: "Machine Learning"  
+     - type: "2020"
+
+  - title : "Pool It!"
+    image_small: "assets/images/soc/item-27_small.png"
+    image : "assets/images/soc/item-27.png"
+    url: "/soc/projects/pool-it"
+    soc-type:
+     - type: "Development"   
+     - type: "2020"
+
+  - title : "Digital Depth Perception"
+    image_small: "assets/images/soc/item-28_small.png"
+    image : "assets/images/soc/item-28.png"
+    url: "/soc/projects/digital-depth-perception"
+    soc-type:
+     - type: "Miscellaneous" 
+     - type: "2020"
+
+  - title : "Insti Buddy"
+    image_small: "assets/images/soc/item-29_small.png"
+    image : "assets/images/soc/item-29.png"
+    url: "/soc/projects/insti-buddy"
+    soc-type:
+     - type: "Development" 
+     - type: "2020"
+
+  - title : "Intelligent agents"
+    image_small: "assets/images/soc/item-30_small.png"
+    image : "assets/images/soc/item-30.png"
+    url: "/soc/projects/intelligent-agents"
+    soc-type:
+     - type: "Machine Learning" 
+     - type: "2020"
+ 
+          
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Seasons of Code"
+    image: "assets/images/testimonial/SoC (1).png"
+    designation: " "
+    content: "Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The idea is that one can choose from the projects offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. The projects floated span several genres, including Development, Scientific Computation, Machine Learning and Open Source. With most of the projects running in summer, we’ve also had projects that have extended into the semester and some in winter."
+
+  - name: "Internship Preparation Session"
+    image: "assets/images/testimonial/intern_session.png"
+    designation: " "
+    content: "To help prepare for the gruesome intership season, WnCC along with Career Cell IITB organized this Internship Preparation Program. We regularly released DSA preparation booklets (comprising both theory and questions) from 13th to 27th June 2021. Moreover, for assistance with the doubts related to the bookletsc we had with us, Aakash Kapoor, an IITB electrical 2020 graduate, currently, a Machine Learning researcher at Samsung. He also held detailed DSA tech sessions to help people learn."
+  
+  - name: "WnCC Wiki- Grundy"
+    image: "assets/images/testimonial/Grundy.png"
+    designation : " "
+    content : "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill."
+   
+  - name: "Learner's Space"
+    image: "assets/images/testimonial/ls (1).png"
+    designation: " "
+    content: " Learners’ Space, is a programme done in collaboration with the Career cell, where enthusiastic students can pursue courses of their interest. It serves as an excellent platform for students to learn new things and make the most out of summer vacations. WnCC runs courses on a variety of topics ranging from Python, Machine Learning to Web/App development. Material (Tutorials, References & Documentation) is released, along with weekly assignments/projects allowing students to implement all that they have learned. " 
+  
+  - name: "Newsletter"
+    image: "assets/images/testimonial/news (1).png"
+    designation: " "
+    content: "The WnCC newsletter is all about delivering the latest and greatest news in the tech space! Now it has been made even more interesting by linking to entertaining and thought provoking videos. We envision the newsletter to be not only a source of latest news but also of nostalgia for the alumni. You will definitely enjoy the WnCC Newsletter! "
+  
+  - name: "Code in Quarantine"
+    image: "assets/images/testimonial/ciq (1).jpg"
+    designation: " "
+    content: "Code in Quarantine was a venture by WnCC aimed to help people begin their journey in programming. It spanned 8 weeks and covered a variety of topics such as Machine Learning, Competitive Programming, Web development, Blockchain etc. Beginner friendly resources and tutorials were shared along with tasks to help strengthen the concepts. "
+
+  - name: "Reflections"
+    image: "assets/images/testimonial/reflections (1).jpg"
+    designation: " "
+    content: "Reflections are our beloved series of informal events that aim to give one an idea of the breadth of Computer Science. These are mostly conducted in Hostel Lounges, where speakers discuss about their CS research projects conducted as RnDs or internships. The problems discussed are usually very specific, but the discussion often covers an overview, providing a general understanding of the topic."
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/walmartlabs.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/facebook.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/mozilla.jpg"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/microsoft.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/lenovo.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/yahoo_japan.png"
+    url: "#"
+        
+  - logo: "assets/images/clients-logo/xlab.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/gdgmumbai.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/globalcyberchallenge.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/kandy.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/intertrust.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/mercari.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/sap.jpg"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/ubisoft.jpg"
+    url: "#"
+
+#-------------------------------
+# Resources Section
+
+resources-items:
+
+  - title: "WnCC Wiki- Grundy"
+    fdis: "It is an educational wiki, meant to help beginners get started with programming. It’s got 100+ articles, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. Here are some top articles of Wiki."
+    name: "wiki"
+    ldis: "We have articles covering tutorials covering most of basic Programming Languages, software and practices and we keep adding more and more so that everyone can use. Do visit to know more about it"
+    btn-title: "Visit Grundy"
+    btn-link: "https://www.wncc-iitb.org/wiki/index.php/The_Web_and_Coding_Club"
+    
+    
+  - title: "DSA Preparation Booklet"
+    fdis: "To help prepare for the gruesome internship season, WnCC along with Career Cell IITB organized the Internship Preparation Program."
+    name: "ds"
+    ldis: "After the Internship Preparation Session, DSA booklets were released weekly, these booklets contained both theory and problems. For assistance with the doubts related to booklets, Aakash Kapoor, an IITB electrical 2020 graduate, currently, a Machine Learning researcher at Samsung also held live DSA session. "
+    btn-title: "Learn DSA"
+    btn-link: "https://github.com/wncc/DSA-Learning-Series-2021"
+    
+  - title: "Learner's Space 2021"
+    fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a month long technical summer school with Web and Coding Club in summers 2021. In this, week wise tutorials for some of the most interesting and essential technical skills, were provided to students."
+    name: "ls21"
+    ldis: "These tutorials contain mixture of important articles, videos and assignments that can help understand these topics better and content is divided week-wise to manage time. If you are looking for learning one of these skills, then these resources can help you find easy and nice content."
+    btn-title: "Get Started"
+    btn-link: "https://github.com/wncc/TSS-2021"
+  
+    
+  - title: "Code inQuarantine()"
+    fdis: "In the time of Lockdown, WnCC started a two month long open-for-all event so that everyone can utilize their quarantine time learning coding skills. Here are few topics from them"
+    name: "ciq"
+    ldis: "In these 8 weeks we provided tutorials for 8 diverse topics: Python; Competitive Programming; Machine Learning; Git/GitHub; FrontEnd Dev; BackEnd Dev; Advanced FrontEnd Dev; Blockchain; In each tutorial, links containing some beginner-friendly resources were shared, along with a task to assess learning. Do visit to learn about them!"
+    btn-title: "View All"
+    btn-link: "https://github.com/wncc/CodeInQuarantine"
+    
+  - title: "Algorithms Simplified"
+    fdis: "Algorithms Simplified series contains short videos trivially explaining some mind-blowing yet intuitive algorithms. This is a series where we do not require you to code. You can just watch a 15-20 min video to learn something cool, that’s it! Even if you want to code and implement those algorithms, we got it covered. We have shared some optional tasks in a ‘Dive Deep’ section as well."
+    name: "as"
+    ldis: "We have over 8+ algorithms simplified here and we keep adding algos regularly. Do visit timely to learn :) "
+    btn-title: "Visit Algorithms Simplified"
+    btn-link: "https://github.com/wncc/CodeInQuarantine"
+    
+  - title: "Learner's Space 2020"
+    fdis: "Undergraduate Acadamic Council(UGAC), IIT Bomabay launched a two months long technical summer school with Web and Coding Club in summers 2020. In this, week wise tutorials of python, machine learning and web development, three of the most hot-tech-skills, were provided to more then 600 students."
+    name: "ls"
+    ldis: "These tutorials contain mixture of important articles, videos and assignments that can help understand these topics better and content is divided week-wise to manage time. If you are looking for learning one of these skills, then these resources can help you find easy and nice content."
+    btn-title: "Get Started"
+    btn-link: "https://github.com/wncc/learners-space"
+    
+ 
+    
+  # - title: ""
+  #   first-discription: ""
+  #   name: ""
+  #   last-discription: ""
+  #   btn-title: ""
+  #   btn-link: ""
+
+wiki:
+  - title: "Programming_101"
+    discription: "This is a comprehensive (hopefully) guide to starting out as a newbie in this giant world of programming. Remember, in this page we will not teach you how to code. Instead, we will direct you to some amazing tutorials online along with some personalized inputs on the general procedure."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Programming_101"
+    image: "wiki1.png"
+
+  - title: "DC++ Setup"
+    discription: "DC++ is a free file sharing application that is used extensively within IIT Bombay. There are several DC++ hubs within IIT Bombay that can only be accessed using the IITB LAN. The benefits of using DC++ are high transfer speeds and content curated by various students."
+    link: "https://www.wncc-iitb.org/wiki/index.php/DC%2B%2B_Setup"
+    image: "wiki2.png"
+
+  - title: "GSoC Project"
+    discription: "This is a comprehensive list of GSoC projects our community has worked upon / recommends. We have tried to add our completion blog as well wherever relevant. We have a separate Open Source guide to get you started."
+    link: "https://www.wncc-iitb.org/wiki/index.php/GSoC_Projects"
+    image: "wiki3.png"
+
+  - title: "Software Engineering Without CS Major"
+    discription: "As the name suggest, the article deeply explains how you can be a Software Engineer without a CS Major degree by following these steps mentioned for each of your 3rd to 8th semester in your degree of any specialisation and in any college."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Software_Engineering_Without_CS_Major"
+    image: "wiki4.png"
+ 
+  - title: "Introduction to Git/Github"
+    discription: "This article lists some excellent tutorials to learn Git/Github, along with some practical advice for the same. Learning git will help you pick up any version control system easily, teach you to make larger projects effectively as well as contribute to massive open source projects."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Git"
+    image: "wiki5.png"
+
+  - title: "Community Resources"
+    discription: "Our community has made a number of blogs with excellent tutorials, hacks and guidelines. This article is a comprehensive list of tutorials arranged topic wise. All slides and video tutorials are also tagged."
+    link: "https://www.wncc-iitb.org/wiki/index.php/Community_Resources"
+    image: "wiki6.png"
+    
+ds:
+  - title: "DSA Preparation Booklet"
+    discription: "These booklets explain some important DSA concepts to aid you in your Internship Preparation."
+    link: "https://github.com/wncc/DSA-Learning-Series-2021"
+    image: "dsa.png"
+
+
+ciq:
+  - title: "Python"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_1_Python/README.md"
+    image: "ciq1.png"
+
+  - title: "Competitive Programming"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_2_CC/README.md"
+    image: "ciq2.png"
+
+  - title: "Machine Learning"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_3_ML/README.md"
+    image: "ciq3.png"
+
+  - title: "Backend Development"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_6_Backend/README.md"
+    image: "ciq4.png"
+
+  - title: "Advanced FrontEnd Development"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/tree/master/Week_7_AdvancedFrontEnd#readme"
+    image: "ciq5.png"
+
+  - title: "BlockChain"
+    discription: ""
+    link: "https://github.com/wncc/CodeInQuarantine/blob/master/Week_8_Blockchain/README.md"
+    image: "ciq6.png"
+
+as:
+  - title: "Heuristic Search"
+    discription: "Heuristic search refers to a search strategy that attempts to optimize a problem by iteratively improving the solution based on a given heuristic function or a cost measure. A heuristic search method does not always guarantee to find an optimal or the best solution, but may instead find a good or acceptable solution within a reasonable amount of time and memory space."
+    link: "https://github.com/wncc/algos-simplified/blob/master/Heuristic-Algorithms/README.md"
+    image: "as1.png"  
+  
+  - title: "Encryption"
+    discription: "Looking forward to explore Cyber Security? Bringing to you Encryption Algorithms to lay some foundation about how things happen in CSec. Encryption algorithms are used in cryptography to transfer information between two people such that the third person trying to steal information from you doesn't get the information."
+    link: "https://github.com/wncc/algos-simplified/blob/master/Encryption_Algorithms/README.md"
+    image: "as2.png"  
+  
+  - title: "Object Detection"
+    discription: "Have you ever wondered how an automonous car detects other cars on the road, the traffic lights and pedestrians? Have you ever given a thought how does security surveillance systems work? Object detection is associated with Computer Vision and describes a system that can identify the presence and location of a desired object or body within an image."
+    link: "https://github.com/wncc/algos-simplified/blob/master/Object%20Detection%20Algorithms/README.md"
+    image: "as3.png"
+    
+ls:
+  - title: "Python"
+    discription: ""
+    link: "https://github.com/wncc/learners-space/tree/master/Python"
+    image: "ls1.jpg"  
+
+  - title: "Web Development"
+    discription: ""
+    link: "https://github.com/wncc/learners-space/tree/master/Web%20Development"
+    image: "ls2.jpg"  
+
+  - title: "Machine Learning"
+    discription: ""
+    link: "https://github.com/wncc/learners-space/tree/master/Machine%20Learning"
+    image: "ls3.png"
+
+ls21:
+  - title: "Python and its Applications"
+    discription: ""
+    link: "https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications"
+    image: "tss1.png"  
+
+  - title: "Intro to App Development"
+    discription: ""
+    link: "https://github.com/wncc/TSS-2021/tree/main/Intro%20to%20App%20Development"
+    image: "tss2.png"  
+
+  - title: "Fundamentals of MLOps"
+    discription: ""
+    link: "https://github.com/wncc/TSS-2021/tree/main/Fundamentals%20of%20MLOps"
+    image: "tss3.png"  
+
+  
+
+
+#-------------------------
+# Events Section
+event-labels:
+- {
+    title : "2020",
+    type : "2020"
+  }
+
+- {
+    title : "2021",
+    type  : "2021"
+  }
+  
+events-items:
+  # 2021 events
+
+  - title : "Introduction to App Development"
+    image_small : "assets/images/events/App_dev_ls.jpeg"
+    image : "assets/images/events/App_dev_ls.jpeg"
+    url : "/events/event/intro-app-dev"
+    event-type:
+      - type: "2021"
+
+  - title : "Python and its Applications"
+    image_small : "assets/images/events/python_ls.jpeg"
+    image : "assets/images/events/python_ls.jpeg"
+    url : "/events/event/python"
+    event_type:
+      - type: "2021"
+    
+  - title : "Fundamentals of MLOps"
+    image_small : "assets/images/events/mlops_ls.jpeg"
+    image : "assets/images/events/mlops_ls.jpeg"
+    url : "/events/event/mlOps"
+    event-type:
+      - type: "2021"
+
+  - title : "Internship Preparation Session"
+    image_small : "assets/images/events/intern_prep.jpeg"
+    image : "assets/images/events/intern_prep.jpeg"
+    url : "/events/event/intern_prep"
+    event-type:
+      - type: "2021"
+
+  - title : "Blockchain Developers Meet"
+    image_small : "assets/images/events/finstreet.jpg"
+    image : "assets/images/events/finstreet.jpg"
+    url : "/events/event/blockchain"
+    event-type:
+      - type: "2021"
+      
+      # 2020 events
+      
+  - title : "Code Games"
+    image_small: "assets/images/events/code_games.jpeg"
+    image : "assets/images/events/code_games.jpeg"
+    url: "/events/event/code-games"
+    event-type:
+     - type: "2020"
+  
+  - title : "Code in Quarantine"
+    image_small: "assets/images/events/code_in_quarantine.jpeg"
+    image : "assets/images/events/code_in_quarantine.jpeg"
+    url: "/events/event/code-in-quarantine"
+    event-type:
+     - type: "2020"
+
+  - title : "Game Development"
+    image_small: "assets/images/events/game_development.jpeg"
+    image : "assets/images/events/game_development.jpeg"
+    url: "/events/event/game-development"
+    event-type:
+     - type: "2020"
+
+  - title : "Git/GitHub Workshop"
+    image_small: "assets/images/events/git.jpeg"
+    image : "assets/images/events/git.jpeg"
+    url: "/events/event/git-github-workshop"
+    event-type:
+     - type: "2020"
+
+  - title : "COVID Talks"
+    image_small: "assets/images/events/insti_against_covid.png"
+    image : "assets/images/events/insti_against_covid.png"
+    url: "/events/event/covid_talks"
+    event-type:
+     - type: "2020"
+
+  - title : "QnA with Kalpesh"
+    image_small: "assets/images/events/qna_with_kalpesh.png"
+    image : "assets/images/events/qna_with_kalpesh.png"
+    url: "/events/event/qna-with-kalpesh"
+    event-type:
+     - type: "2020"
+
+  - title : "RattleSnake"
+    image_small: "assets/images/events/rattle_snake.jpeg"
+    image : "assets/images/events/rattle_snake.jpeg"
+    url: "/events/event/rattlesnake"
+    event-type:
+     - type: "2020"
+  
+  - title : "Learners' Space"
+    image_small : "assets/images/events/learners_space.jpeg"
+    image : "assets/images/events/learners_space.jpeg"
+    url : "/events/event/learners-space"
+    event-type:
+      - type: "2020"
+
+  - title : "Algorithms Simplified"
+    image_small : "assets/images/events/algorithms_simplified.jpg"
+    image : "assets/images/events/algorithms_simplified.jpg"
+    url : "/events/event/algorithms-simplified"
+    event-type:
+      - type: "2020"
+  
+  - title : "Seasons of Code 2020"
+    image_small : "assets/images/events/soc_2020.jpeg"
+    image : "assets/images/events/soc_2020.jpeg"
+    url : "/events/event/soc_2020"
+    event-type:
+      - type: "2020"
+    
+# SOC-2021 Results
+
+soc-result-items:
+  - title : "Introduction to Web Development"
+    image_small: "assets/images/soc/2021/small_item-1.jpg"
+    image : "assets/images/soc/2021/item-1.jpg"
+    url: "/socresults/project-1-result"
+    
+
+  - title : "(Un)Clear"
+    image_small: "assets/images/soc/2021/small_item-2.png"
+    image : "assets/images/soc/2021/item-2.png"
+    url: "/soc-results/project-2-result"
+    
+  - title : "Goal ICPC"
+    image_small: "assets/images/soc/2021/small_item-3.png"
+    image : "assets/images/soc/2021/item-3.png"
+    url: "/soc-results/project-3-result"
+   
+
+  - title : "PyRated"
+    image_small: "assets/images/soc/2021/small_item-5.png"
+    image : "assets/images/soc/2021/item-5.png"
+    url: "/soc-results/project-5-result"
+    
+
+  - title : "Tools for Data Science"
+    image_small: "assets/images/soc/2021/small_item-6.png"
+    image : "assets/images/soc/2021/item-6.png"
+    url: "/soc-results/project-6-result"
+    
+    
+
+  - title : "Audio Controlled Drone"
+    image_small: "assets/images/soc/2021/small_item-8.jpeg"
+    image : "assets/images/soc/2021/item-8.jpeg"
+    url: "/soc-results/project-8-result"
+    
+
+  - title : "NLPlay with Transformers"
+    image_small: "assets/images/soc/2021/small_item-9.png"
+    image : "assets/images/soc/2021/item-9.png"
+    url: "/soc-results/project-9-result"
+    
+
+  - title : "DIY FaceApp"
+    image_small: "assets/images/soc/2021/small_item-10.jpg"
+    image : "assets/images/soc/2021/item-10.jpg"
+    url: "/soc-results/project-10-result"
+    
+  
+  - title : "A Deep Dive into CNNs"
+    image_small: "assets/images/soc/2021/small_item-11.jpg"
+    image : "assets/images/soc/2021/item-11.jpg"
+    url: "/soc-results/project-11-result"
+    
+
+  - title : "Snake AI"
+    image_small: "assets/images/soc/2021/small_item-12.jpg"
+    image : "assets/images/soc/2021/item-12.jpg"
+    url: "/soc-results/project-12-result"
+    
+
+  - title : "Facial Recognition App"
+    image_small: "assets/images/soc/2021/small_item-13.jpg"
+    image : "assets/images/soc/2021/item-13.jpg"
+    url: "/soc-results/project-13-result"
+    
+
+  - title : "Gaming meets AI !!!"
+    image_small: "assets/images/soc/2021/small_item-14.jpg"
+    image : "assets/images/soc/2021/item-14.jpg"
+    url: "/soc-results/project-14-result"
+    
+  - title : "R(ea)L Trader"
+    image_small: "assets/images/soc/2021/small_item-15.jpeg"
+    image : "assets/images/soc/2021/item-15.jpeg"
+    url: "/soc-results/project-15-result"
+    
+    
+  - title : "Computational Geometry"
+    image_small: "assets/images/soc/2021/small_item-16.png"
+    image : "assets/images/soc/2021/item-16.png"
+    url: "/soc-results/project-16-result"
+    
+
+  - title : "Developing Hybrid ANN-Statistical Model for Robust Stock Market Prediction"
+    image_small: "assets/images/soc/2021/small_item-17.png"
+    image : "assets/images/soc/2021/item-17.png"
+    url: "/soc-results/project-17-result"
+   
+   
+
+  - title : "Astronomical Data-modelling and Interpretation"
+    image_small: "assets/images/soc/2021/small_item-19.png"
+    image : "assets/images/soc/2021/item-19.png"
+    url: "/soc-results/project-19-result"
+    
+
+  - title : "Visual Perception for Self Driving Cars"
+    image_small: "assets/images/soc/2021/small_item-20.png"
+    image : "assets/images/soc/2021/item-20.png"
+    url: "/soc-results/project-20-result"
+    
+
+  - title : "Convolutional Neural Networks and Applications"
+    image_small: "assets/images/soc/2021/small_item-21.png"
+    image : "assets/images/soc/2021/item-21.png"
+    url: "/soc-results/project-21-result"
+   
+
+  - title : "Quantum Computing Algorithms"
+    image_small: "assets/images/soc/2021/small_item-22.jpg"
+    image : "assets/images/soc/2021/item-22.jpg"
+    url: "/soc-results/project-22-result"
+    
+  
+  - title : "Algorithm Visualizer"
+    image_small: "assets/images/soc/2021/small_item-23.png"
+    image : "assets/images/soc/2021/item-23.png"
+    url: "/soc-results/project-23-result"
+    
+  
+  - title : "Anime Club IITB Website using Django"
+    image_small: "assets/images/soc/2021/small_item-24.png"
+    image : "assets/images/soc/2021/item-24.png"
+    url: "/soc-results/project-24-result"
+
+  - title : "Browser Based PDF Manager"
+    image_small: "assets/images/soc/2021/small_item-26.jpeg"
+    image : "assets/images/soc/2021/item-26.jpeg"
+    url: "/soc-results/project-26-result"
+    
+
+  - title : "Competitive Coding"
+    image_small: "assets/images/soc/2021/small_item-28.png"
+    image : "assets/images/soc/2021/item-28.png"
+    url: "/soc-results/project-28-result"
+    
+
+  - title : "Deep reinforcement learning - 2048 AI"
+    image_small: "assets/images/soc/2021/small_item-29.jpg"
+    image : "assets/images/soc/2021/item-29.jpg"
+    url: "/soc-results/project-29-result"
+
+    
+
+  - title : "Physicc - A Simple Physics Engine"
+    image_small: "assets/images/soc/2021/small_item-31.jpeg"
+    image : "assets/images/soc/2021/item-31.jpeg"
+    url: "/soc-results/project-31-result"
+ 
+
+  - title : "Image Colorization"
+    image_small: "assets/images/soc/2021/small_item-32.png"
+    image : "assets/images/soc/2021/item-32.png"
+    url: "/soc-results/project-32-result"
+
+    
+
+  - title : "Computer vision based web app"
+    image_small: "assets/images/soc/2021/small_item-34.jpeg"
+    image : "assets/images/soc/2021/item-34.jpeg"
+    url: "/soc-results/project-34-result"
+    
+
+  - title : "Techster Texter"
+    image_small: "assets/images/soc/2021/small_item-35.jpeg"
+    image : "assets/images/soc/2021/item-35.jpeg"
+    url: "/soc-results/project-35-result"
+    
+
+  - title : "Language Detection"
+    image_small: "assets/images/soc/2021/small_item-36.jpg"
+    image : "assets/images/soc/2021/item-36.jpg"
+    url: "/soc-results/project-36-result"
+    
+    
+  - title : "ResoBin - Not the bin we deserve but the bin we need!"
+    image_small: "assets/images/soc/2021/small_item-38.jpg"
+    image : "assets/images/soc/2021/item-38.jpg"
+    url: "/soc-results/project-38-result"
+    
+   
+  
+  - title : "Moodify"
+    image_small: "assets/images/soc/2021/small_item-40.png"
+    image : "assets/images/soc/2021/item-40.png"
+    url: "/soc-results/project-40-result"
+    
+       
+  - title : "Agree to Disagree"
+    image_small: "assets/images/soc/2021/small_item-41.jpg"
+    image : "assets/images/soc/2021/item-41.jpg"
+    url: "/soc-results/project-41-result"
+    
+       
+  - title : "Unscripted"
+    image_small: "assets/images/soc/2021/small_item-42.png"
+    image : "assets/images/soc/2021/item-42.png"
+    url: "/soc-results/project-42-result"
+    
+    
+       
+  - title : "Introduction to App Development"
+    image_small: "assets/images/soc/2021/small_item-44.jpg"
+    image : "assets/images/soc/2021/item-44.jpg"
+    url: "/soc-results/project-44-result"
+    
+       
+  - title : "IITinder"
+    image_small: "assets/images/soc/2021/small_item-45.jpeg"
+    image : "assets/images/soc/2021/item-45.jpeg"
+    url: "/soc-results/project-45-result"
+    
+       
+  - title : "BriefKing"
+    image_small: "assets/images/soc/2021/small_item-46.jpeg"
+    image : "assets/images/soc/2021/item-46.jpeg"
+    url: "/soc-results/project-46-result"
+
+        
+  - title : "Break free of the matrix, by building one!"
+    image_small: "assets/images/soc/2021/small_item-48.jpeg"
+    image : "assets/images/soc/2021/item-48.jpeg"
+    url: "/soc-results/project-48-result"
+    
+ 
+        
+  - title : "PAC MAN"
+    image_small: "assets/images/soc/2021/small_item-50.png"
+    image : "assets/images/soc/2021/item-50.png"
+    url: "/soc-results/project-50-result"
+#-------------------------------
+
+blog-items:
+  - title : "ICPC Experience"
+    author: "Bhaskar Gupta"
+    author_image: "assets/images/blog-author/bhaskar_gupta.jpeg"
+    image : "assets/images/blog/icpc.jpeg"
+    url: "/blogs/icpc"
+
+  - title : "Microsoft Engage"
+    author: "Vikram Atreya"
+    author_image: "assets/images/blog-author/vikram_atreya.JPG"
+    image : "assets/images/blog/microsoft.jpeg"
+    url: "/blogs/ms-engage"
+
+  - title : "Roadmap-1"
+    author: "Laxman Desai"
+    author_image: "assets/images/blog-author/laxmanDesai.jpg"
+    image : "assets/images/blog/sprinklr.jpg"
+    url: "/blogs/sprinklr"
+
+  - title : "Roadmap-2"
+    author: "Kunind Sahu"
+    author_image: "assets/images/blog-author/kunindSahu.jpeg"
+    image : "assets/images/blog/amex.png"
+    url: "/blogs/amex"
+# Contact Section
+
+contact-title: Contact Info
+contact-email: wncc@iitb.ac.in

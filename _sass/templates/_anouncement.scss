@@ -1,0 +1,161 @@
+.side-bar{
+    position: fixed;
+    right:50px;
+    top:47px;
+    z-index:100;
+    @include mobile{
+        bottom: 200px;
+    }
+    @include mobile-xs{
+        bottom: 200px;
+    }
+}
+
+
+:root {
+	--easing: cubic-bezier(0.33, 1, 0.68, 1);
+	--easing-2: cubic-bezier(0.61, 1, 0.88, 1);
+}
+
+input[type="checkbox"]:checked {
+	& + .box:after {
+		transform: scale3d(8.5, 4, 1);
+    opacity: 0.8;
+    background: rgb(255, 230, 0);
+
+    @include mobile{
+        transform: scale3d(8, 4, 1);
+        background: rgb(221, 199, 0);
+        opacity: 1;
+    }
+    @include mobile-xs{
+        transform: scale3d(6, 4, 1);
+        background: rgb(221, 199, 0);
+        opacity: 1;
+    }
+    border-radius: 2px;
+    transition: 0.3s;
+	}
+	
+	& + .box .box__item {
+		transform: translate(30px, 90px);
+        @include mobile{
+            transform: translate(30px, 90px);
+        }
+        @include mobile-xs{
+            transform: translate(20px, 90px);
+        }
+    opacity: 1;
+		display: block;
+    transition: all 1s;
+	}
+
+    & +.box .ti-bell{
+        &:before{
+        content:"\e646";
+        color: red;
+        background-color: rgb(255, 230, 0);
+        padding:8px;
+        border-radius: 25%;
+        font-weight: bold;
+        font-size: 35px;
+        transition: 0.3s;
+        }
+        animation: none;
+      }
+    
+}
+.box {
+	padding: 10px 45px 10px 10px;
+	position: relative;
+	
+	&:after {
+		content: '';
+		width: 55px;
+		height: 60px;
+		position: absolute;
+        top:-2px;
+		right: -2px;
+		background:rgb(255, 230, 0);
+        border-radius: 10%;
+		transform-origin: 95% -50%;
+		transform: translateY(-25%);
+		transition: transform 0.5s;
+		z-index: -1;
+	}
+	
+	&__item {
+		display: none;
+		opacity: 0;
+		transition: 
+			opacity 0.2s 0.8s 0;
+	}
+}
+
+.toggle {
+	display: block;
+	position: absolute;
+	right: 0;
+	transform: translateY(-50%);
+	
+	&__checkbox {
+		display: none;
+	}
+}
+
+.ti-bell{
+    display: block;
+    transition: 0.3s;
+    animation: ring 4s .7s ease-in-out infinite;
+    &:hover{
+    animation: none;
+    }
+}
+
+@keyframes ring {
+  0% { -webkit-transform: rotateZ(0); }
+  1% { -webkit-transform: rotateZ(30deg); }
+  3% { -webkit-transform: rotateZ(-28deg); }
+  5% { -webkit-transform: rotateZ(34deg); }
+  7% { -webkit-transform: rotateZ(-32deg); }
+  9% { -webkit-transform: rotateZ(30deg); }
+  11% { -webkit-transform: rotateZ(-28deg); }
+  13% { -webkit-transform: rotateZ(26deg); }
+  15% { -webkit-transform: rotateZ(-24deg); }
+  17% { -webkit-transform: rotateZ(22deg); }
+  19% { -webkit-transform: rotateZ(-20deg); }
+  21% { -webkit-transform: rotateZ(18deg); }
+  23% { -webkit-transform: rotateZ(-16deg); }
+  25% { -webkit-transform: rotateZ(14deg); }
+  27% { -webkit-transform: rotateZ(-12deg); }
+  29% { -webkit-transform: rotateZ(10deg); }
+  31% { -webkit-transform: rotateZ(-8deg); }
+  33% { -webkit-transform: rotateZ(6deg); }
+  35% { -webkit-transform: rotateZ(-4deg); }
+  37% { -webkit-transform: rotateZ(2deg); }
+  39% { -webkit-transform: rotateZ(-1deg); }
+  41% { -webkit-transform: rotateZ(1deg); }
+
+  43% { -webkit-transform: rotateZ(0); }
+  100% { -webkit-transform: rotateZ(0); }
+}
+
+#anouncement{
+    font-size: 3.75em;
+    font-weight: 900;
+    line-height: 1;
+    text-align: left; 
+    color: black;
+    text-shadow: 2px 2px #5a5858;
+  @include mobile{
+    font-size: 2.5em;
+    }
+  @include mobile-xs{
+        font-size: 2.5em;
+        }
+
+  }
+  
+  .anouncement-item{
+      color:rgb(66, 5, 5)!important;
+  }

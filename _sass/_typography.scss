@@ -1,0 +1,131 @@
+/*  typography */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@font-face {
+  font-family: 'BwNistaInt-xBd';
+  src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  line-height: 1.2;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  color: $text-color;
+}
+
+.customcol
+{
+  color: white;
+  background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+.blog-col
+{
+  color: #55cfff;
+  font-family: $primary-font;
+  @include mobile-xs{
+    font-size: 2.3em;
+  }
+}
+.author-details
+{
+  font-weight: 800;
+  color: #e6ba8e; 
+  font-size: 2em;
+  float: right;
+  white-space: pre;
+  @include mobile-xs{
+    font-size: 1.3em;
+  }
+}
+
+p, .paragraph {
+  font-weight: 400;
+  color: $text-color;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: $primary-font;
+  &-lg{
+    font-size: 22px;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $text-color-dark;
+  font-family: $secondary-font;
+  line-height: 1.2;
+}
+
+h1, .h1{
+  font-size: 80px;
+  @include desktop {
+    font-size: 65px;
+  }
+}
+
+h2, .h2{
+  font-size: 60px;
+  @include desktop {
+    font-size: 50px;
+  }
+}
+
+h3, .h3{
+  font-size: 40px;
+}
+
+h4, .h4{
+  font-size: 28px;
+}
+
+h5, .h5{
+  font-size: 18px;
+}
+
+h6, .h6{
+  font-size: 14px;
+}
+
+.mentor-title{
+  font-weight: 800;
+}
+.button-res{
+  font-size: 24px;
+  color: white;
+  border-radius: 25px;
+  background-color: rgb(68, 0, 194) ;
+  padding-left: 30px; 
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.button-res:hover{
+  color: rgb(68, 0, 194);
+  background-color: white;
+}
+
+.button-holder{
+  display: inline-block;
+  margin-top: 10px;
+  align-self: center;
+}

@@ -1,0 +1,152 @@
+.hero-area {
+  padding: 300px 0 200px;
+  position: relative;
+  @include tablet {
+    padding: 250px 0 150px;
+    overflow: hidden;
+  }
+  h1{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.layer {
+  position: absolute;
+  z-index: 1;
+}
+
+#l1 {
+  bottom: 0;
+  left: 0;
+}
+
+#l2 {
+  top: 190px;
+  left: -250px;
+}
+
+#l3 {
+  top: 200px;
+  left: 40%;
+}
+
+#l4 {
+  top: 200px;
+  right: 40%;
+}
+
+#l5 {
+  top: 100px;
+  right: -150px;
+}
+
+#l6 {
+  bottom: -20px;
+  left: 10%;
+}
+
+#l7 {
+  bottom: 100px;
+  left: 20%;
+}
+
+#l8 {
+  bottom: 160px;
+  right: 45%;
+}
+
+#l9 {
+  bottom: 100px;
+  right: -10px;
+}
+
+.layer-bg {
+  @supports(zoom:0.75){
+  width: 125vw;
+  }
+  position: absolute;
+  bottom: 0;
+  left: 4vw;
+}
+
+.li1 {
+  @include mobile{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 0px;
+  }
+}
+
+.heading{
+  margin:0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 6s steps(50,end);
+  border-right: 10px solid black;
+  &:before{
+    width:0;
+  }
+  &:after{
+    width:50%;
+  }
+  
+}
+
+.console-container {
+  font-size: 5em;
+  height:1000px;
+  width:500px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  @include mobile {
+    margin-top: -100px;
+    font-size: 4em; 
+    width: 400px;   
+  }
+  @include mobile-xs {
+    margin-top: 0px;
+    font-size: 4em; 
+    width: 300px;   
+  }
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink{
+  0%{
+    opacity:0;
+  }
+  50%{
+    opacity: 100;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+#console2{
+  visibility: hidden;
+}
+
+#console-container2{
+  font-size: 3.2em;
+  margin-top: 200px;
+  width:fit-content;
+  @include mobile {
+    margin-top:60px;
+  }
+  @include mobile-xs{
+    margin-top:220px;
+  }
+}

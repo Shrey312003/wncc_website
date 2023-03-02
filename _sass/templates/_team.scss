@@ -1,0 +1,154 @@
+.team-title{
+  margin-left: 10vw;
+  color: aliceblue;
+  font-size: 6vw;
+  @include mobile-xs{
+    margin:0;
+    margin-top: -30px;
+    margin-bottom:50px;
+    text-align: center;
+    font-size: 3.3em;
+    width: fit-content;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.team-card {
+  border-radius: 8px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 80px -10px black;
+  &:hover{
+    background-color: rgb(44, 44, 44);
+    transition: 1.5s;
+  }
+}
+
+.team-card:hover .card-title{
+  color: aliceblue;
+}
+.team-card:hover .card-desc{
+  color: aliceblue;
+}
+.team-card:hover .ti-github{
+  color: aliceblue;
+}
+
+.team-card:hover .ti-facebook{
+  color: aliceblue;
+}
+
+.team-card:hover .ti-linkedin{
+  color: aliceblue;
+}
+.team-info {
+  border-radius: 10%;
+    margin-top: -13vw;
+    margin-right: 7vw;
+    float: right;
+    font-size: 1.7vw;
+    height:15vw;
+    width:50vw;
+    display:block;
+    color:gray;
+    font-family: monospace;
+    padding: 10px;
+    @include mobile-xs{
+      display: none;
+    }
+    @include mobile{
+      display: none;
+    }
+  }
+  .team-console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+    color: greenyellow;
+    animation: blink 0.7s infinite;
+  }
+  
+  .team-image{
+    width:16.5vw;
+    height:22vw;
+    &:hover{
+      transform: scale(1.05);
+      transition: 0.7s ease-out;
+      cursor: pointer;
+    }
+    &:active{
+      transform: scale(0.9);
+    }
+  }
+  
+
+.team-section{
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: repeat(14, 0.5fr);
+    -ms-grid-rows: 1fr;
+    grid-template-rows: repeat(3, 0.5fr);
+    position: relative;
+    top: 14vw;
+    @supports(zoom:0.75){
+      left: 17.5vw;
+    }
+    padding-bottom: 120px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    @include mobile-xs{
+      display: none;
+    }
+    @include mobile{
+      display: none;
+    }
+}
+
+.team-member {
+  position: relative;
+  margin-left: -20px;
+  margin-right: -25px;
+  margin-top: -9vw;
+  height:22vw;
+  width: 16.25vw;
+  outline: 0 !important;
+  overflow:hidden;
+}
+
+.mobile-team{
+  display:none;
+  @include mobile-xs{
+    display:block;
+  }
+  @include mobile{
+    display:block;
+  }
+}
+
+#team{
+  background-color: rgb(33, 33, 33);
+}
+
+.team-member .img-wrap:before {
+  content: '';
+  background-image: linear-gradient(to top, rgba(33, 33, 33,255), rgba(20, 4, 4, 0));
+  position: absolute;
+  width:16.45vw;
+  height: 6vw;
+  right:0;
+  bottom: 0;
+}
+.team-member .img-wrap:after {
+  content: '';
+  display: block;
+  height: 100px;
+}

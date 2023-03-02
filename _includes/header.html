@@ -1,0 +1,56 @@
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      {% if site.data.settings.logo %}
+      <a href = "{{site.baseurl}}/">
+        <img src="{{ site.baseurl }}/assets/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+        </a>
+      {% endif %}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+        </li>
+        {% for link in site.data.settings.menu %}
+          <li class="nav-item {{ class }}">
+            <a class="nav-link" href="{{site.baseurl}}{{ link.link }}">{{ link.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class = "side-bar">
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
+    
+      <aside class="box">
+      <label for="toggle" class="toggle"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
+      <section>
+        <p class="box__item" id ="anouncement">Announcements</p>
+        <p class="lead display-5">
+          <ul style = "list-style-type: disc; font-size: 20px;" class="box__item">
+            <li><a class = "anouncement-item" href = "{{site.baseurl}}/blogs/" class=" display-5" ><strong>Roadmap-2 Released</strong></a></li>
+          <li><a class = "anouncement-item" target = "_blank" href = "https://discord.gg/fHUH46xyGD" ><strong>Click Here to join our Discord channel!!</strong></a></li>
+          </ul>
+        </p>
+        </section>
+      </aside>
+      </div>
+  </nav>
+
+  <script>
+    function theme(){
+      var dark = "true";
+      if(dark === "true"){
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+  </script>
+</header>

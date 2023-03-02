@@ -1,0 +1,37 @@
+<!-- footer -->
+<footer class="bg-dark footer-section bg-dark-footer">
+  <div class="section">
+    <div class="container-fluid pr-4 pl-4">
+      <div class="row justify-content-around">
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text">Email</h5>
+          <p class="text-white paragraph-lg font-secondary footer-text">{{ site.data.settings.email }}</p>
+        </div>
+        <div class = "col-lg-2">
+        <h4 class = "text-center footer-text">
+          <a href = "https://www.facebook.com/wncc.iitb/"><i class ="ti-facebook"></i></a>
+          <a class = "ml-4" href = "https://github.com/wncc"><i class ="ti-github"></i></a>
+          <a class = "ml-4" href = "https://www.linkedin.com/company/wncc-iitb/mycompany/"><i class ="ti-linkedin"></i></a>
+          <a class = "ml-4" href = "https://www.instagram.com/wncc.iitb/"><i class ="ti-instagram"></i></a>
+        </h4>
+        </div>
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text" style="text-align: end;">Address</h5>
+          <p class="text-white paragraph-lg font-secondary text-end footer-text" style="text-align: end;">{{
+            site.data.settings.address }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <div class="border-top text-center border-dark py-2">
+    <p class="mb-0 text-light footer-text">Copyright ©️
+      <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Web and Coding Club, IIT Bombay
+    </p>
+  </div>
+</footer>
+<!-- /footer -->

@@ -1,0 +1,11 @@
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/wdm-0.1.1/ext/wdm
+/home/ishit_garg/.rbenv/versions/3.0.1/bin/ruby -I /home/ishit_garg/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20211023-6506-cehxps.rb extconf.rb
+
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= clean
+
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\=
+
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= install

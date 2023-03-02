@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacts</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="icon" href="/assets/images/logo.png">
+
+  <style>
+  @media screen and (max-width: 767px) {
+    .scroll{
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+    }
+  }
+  </style>
+
+</head>
+
+<body>
+
+
+  <header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      
+      <a href = "/">
+        <img src="/assets/images/logo.png" alt="WnCC IIT Bombay">
+        </a>
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/resources/">Resources</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/soc/">SoC</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/events/">Events</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/blogs/">Code::Blogs</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#team">Team</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#contact">Contact</a>
+          </li>
+        
+      </ul>
+    </div>
+    <div class = "side-bar">
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
+    
+      <aside class="box">
+      <label for="toggle" class="toggle"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
+      <section>
+        <p class="box__item" id ="anouncement">Announcements</p>
+        <p class="lead display-5">
+          <ul style = "list-style-type: disc; font-size: 20px;" class="box__item">
+            <li><a class = "anouncement-item" href = "/blogs/" class=" display-5" ><strong>Roadmap-2 Released</strong></a></li>
+          <li><a class = "anouncement-item" target = "_blank" href = "https://discord.gg/fHUH46xyGD" ><strong>Click Here to join our Discord channel!!</strong></a></li>
+          </ul>
+        </p>
+        </section>
+      </aside>
+      </div>
+  </nav>
+
+  <script>
+    function theme(){
+      var dark = "true";
+      if(dark === "true"){
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+  </script>
+</header>
+
+
+  <!-- page title -->
+<section class="page-title bg-primary position-relative h-25">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-2 text-center">
+        <h1 class="text-white display1">Contacts</h1>
+      </div>
+    </div>
+  </div>
+  <img src="/assets/images/illustrations/matrix1.png" alt="illustrations" class=" w-100" style= "z-index:-1; margin-top:-700px; margin-bottom:-300px; opacity:0.5; max-height: 600px; ">
+
+</section>
+<!-- /page title -->
+
+
+
+
+  <!-- footer -->
+<footer class="bg-dark footer-section bg-dark-footer">
+  <div class="section">
+    <div class="container-fluid pr-4 pl-4">
+      <div class="row justify-content-around">
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text">Email</h5>
+          <p class="text-white paragraph-lg font-secondary footer-text">wncc@iitb.ac.in</p>
+        </div>
+        <div class = "col-lg-2">
+        <h4 class = "text-center footer-text">
+          <a href = "https://www.facebook.com/wncc.iitb/"><i class ="ti-facebook"></i></a>
+          <a class = "ml-4" href = "https://github.com/wncc"><i class ="ti-github"></i></a>
+          <a class = "ml-4" href = "https://www.linkedin.com/company/wncc-iitb/mycompany/"><i class ="ti-linkedin"></i></a>
+          <a class = "ml-4" href = "https://www.instagram.com/wncc.iitb/"><i class ="ti-instagram"></i></a>
+        </h4>
+        </div>
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text" style="text-align: end;">Address</h5>
+          <p class="text-white paragraph-lg font-secondary text-end footer-text" style="text-align: end;">IIT Bombay, Powai, Mumbai, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <div class="border-top text-center border-dark py-2">
+    <p class="mb-0 text-light footer-text">Copyright ©️
+      <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Web and Coding Club, IIT Bombay
+    </p>
+  </div>
+</footer>
+<!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="/assets/plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="/assets/js/script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>About Me</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="icon" href="/assets/images/logo.png">
+
+  <style>
+  @media screen and (max-width: 767px) {
+    .scroll{
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+    }
+  }
+  </style>
+
+</head>
+
+<body>
+
+
+  <header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      
+      <a href = "/">
+        <img src="/assets/images/logo.png" alt="WnCC IIT Bombay">
+        </a>
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/resources/">Resources</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/soc/">SoC</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/events/">Events</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/blogs/">Code::Blogs</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#team">Team</a>
+          </li>
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="/#contact">Contact</a>
+          </li>
+        
+      </ul>
+    </div>
+    <div class = "side-bar">
+      <input type="checkbox" id="toggle" class="toggle__checkbox" />
+    
+      <aside class="box">
+      <label for="toggle" class="toggle"><a><i class="ti-bell" style="font-size: 50px;" ></i></a></label>
+      <section>
+        <p class="box__item" id ="anouncement">Announcements</p>
+        <p class="lead display-5">
+          <ul style = "list-style-type: disc; font-size: 20px;" class="box__item">
+            <li><a class = "anouncement-item" href = "/blogs/" class=" display-5" ><strong>Roadmap-2 Released</strong></a></li>
+          <li><a class = "anouncement-item" target = "_blank" href = "https://discord.gg/fHUH46xyGD" ><strong>Click Here to join our Discord channel!!</strong></a></li>
+          </ul>
+        </p>
+        </section>
+      </aside>
+      </div>
+  </nav>
+
+  <script>
+    function theme(){
+      var dark = "true";
+      if(dark === "true"){
+        var element  = document.body;
+        element.classList.add("dark-mode");
+      }else{
+        var element  = document.body;
+        element.classList.remove("dark-mode");
+      }
+    }
+    theme();
+  </script>
+</header>
+
+
+  <!-- page title -->
+<section class="page-title-alt bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary">About Me</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="/assets/images/illustrations/leaf-bg-top.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="/assets/images/illustrations/dots-group-sm.png" alt="illustrations" class="bg-shape-2">
+  <img src="/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-3">
+  <img src="/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+  <img src="/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-5">
+  <img src="/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-6">
+</section>
+<!-- /page title -->
+
+<!-- about -->
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.</p>
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident.</p>
+
+<p>Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+
+      </div>
+      <div class="col-md-4 text-center drag-lg-top">
+        <div class="shadow-down mb-4">
+          <img src="/assets/images/about/author.jpg" alt="Johnathan Smith" class="img-fluid w-100 rounded-lg border-thick border-white">
+        </div>
+        <img src="/assets/images/about/signature.png" alt="signature" class="img-fluid">
+        <h4>Johnathan Smith</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+
+<!-- Work Process -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Work Process</h2>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="/assets/images/icons/plan.png" class="mb-4" alt="icon">
+        <h4 class="mb-4">Research and Plan</h4>
+        <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</p>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="/assets/images/icons/design.png" class="mb-4" alt="icon">
+        <h4 class="mb-4">Design and Develop</h4>
+        <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</p>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="/assets/images/icons/print.png" class="mb-4" alt="icon">
+        <h4 class="mb-4">Deliver</h4>
+        <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- ./Work Process -->
+
+
+
+<!-- team -->
+<section class="section team-cover" id ="team">
+  <div class="container-fluid">
+      <div>
+        <h1 class="section-title team-title" id ="team-title">The Team </h1>
+    </div>
+      <div class='team-info rounded'><span id='teamtext'></span>
+      <div class='team-console-underscore' id='teamconsole'>&#95;</div></div>
+        
+        <section class="team-section">
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:1">
+            <div class = "img-wrap">
+            <img class = "team-image" src = "/assets/images/team/tty15/Aryan_Bhosale.png" id ="Aryan_Bhosale">
+            </div>
+          </div>
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:2">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Navyansh_Mahla.png" id ="Navyansh">
+            </div>
+          </div>
+          
+          <div class="team-member" tabindex="0" style = "grid-row:1; grid-column:3; margin-left:-5px;">
+            <div class = "img-wrap">
+            <img class = "team-image" style = "width:100%" src = "/assets/images/team/tty15/Ishit_Garg.png" id ="Ishit">
+            </div>
+          </div>
+          
+          <div class="team-member" tabindex="0"  style = "grid-row:1/4; grid-column:4">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Parth_Pujari.png" id ="Parth">
+            </div>
+          </div>
+
+
+          <div class="team-member" tabindex="0"  style = "grid-row:1; grid-column:5; margin-left:-20px">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Shrey_Aggarwal.png" id ="Shrey">
+            </div>
+          </div>
+
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:1">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Soutrik_Sarangi.png" id ="Soutrik">
+            </div>
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:2;">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Atishay_Jain.png" id ="Atishay">
+              </div>
+          </div>
+
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:3; ">
+            <div class = "img-wrap">
+            <img class = "team-image" style = "width:100%" src = "/assets/images/team/tty15/Shreedhar_Malpani.png" id ="Shreedhar">
+          </div>
+          </div>
+
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:4">
+            <div class = "img-wrap">
+            <img class = "team-image"  src = "/assets/images/team/tty15/Aryan_Goyal.png" id ="Aryan">
+            </div>
+          </div>
+
+          
+          <div class="team-member" tabindex="0" style = "grid-row:2; grid-column:5;">
+            <div class = "img-wrap">
+            <img class = "team-image" src = "/assets/images/team/tty15/chaitanya.png" id ="Chaitanya">
+            </div>
+          </div>
+
+          
+        </section>
+        <section class = "mobile-team">
+        <div class ="row justify-content-md-center" >
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Ishit_Garg.png" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Ishit Garg</h4>
+                <p class="font-secondary card-desc">Manager</p>
+                  <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark mr-2" href="https://github.com/ishit16"><i class="ti-github"></i></a></h5>  
+                    <h5><a class="text-dark mr-2" href="https://www.facebook.com/ishit.garg.18"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/ishit-garg-a4120b201/"><i class="ti-linkedin"></i></a></h5>   
+                 </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Shreedhar_Malpani.png" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Shreedhar Malpani</h4>
+                <p class="font-secondary card-desc">Manager</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/shreedharmalpani"><i class="ti-github"></i></a></h5>
+                    <h5><a class="text-dark" href="https://www.facebook.com/ShreedharMalpani28"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/shreedhar-malpani-23a139209/"><i class="ti-linkedin"></i></a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Aryan_Bhosale.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Aryan Bhosale</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/Hyperion0209"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/profile.php?id=100075084139651"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/aryan-bhosale-345497226 "><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Aryan_Goyal.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Aryan Goyal</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/aryangoyal7"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/aryanx07/"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/aryan-goyal-8429611a7/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/chaitanya.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Chaitanya Aggarwal</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/Chaitanya-Aggarwal"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/chaitanya.aggarwal.940"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/chaitanya-aggarwal-991b82224/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/tty15/Navyansh_Mahla.png" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Navyansh Mahla</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/navyanshmahla"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/navyansh.mahla"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/navyansh-mahla-519817223/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/Subarno Nath Roy.jpg" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Parth Pujari</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="http://github.com/ParthP3"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/profile.php?id=100075941285086"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/parth-pujari-12723323a"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/Shubh Kumar.jpg" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Shrey Aggarwal</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="https://github.com/Shrey312003"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="http://facebook.com/profile.php?id=100075168486456"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+            <div class="card team-card text-center">
+              <img src="/assets/images/team/Ishit Garg.jpeg" class="card-img-top" width:="350px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Soutrik Sarangi</h4>
+                <p class="font-secondary card-desc">Convener</p>
+                <div class="d-flex justify-content-center">
+                  <h5><a class="text-dark" href="http://github.com/soutrik-01"><i class="ti-github"></i></a></h5>   
+                    <h5><a class="text-dark" href="https://www.facebook.com/soutrik.sarangi.1/"><i class="ti-facebook"></i></a></h5>
+                  <h5><a class="text-dark" href="https://www.linkedin.com/in/shrey-aggarwal-5606a8223/"><i class="ti-linkedin"></i></a></h5>    
+                </div>
+              </div>
+              </div>
+            </div>
+          
+        </div>
+        </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- /team -->
+
+  
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Clients</h2>
+      </div>
+    </div>
+    
+<div class="client-logo-slider d-flex align-items-center">
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/walmartlabs.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/facebook.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/mozilla.jpg" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/microsoft.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/lenovo.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/yahoo_japan.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/xlab.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/gdgmumbai.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/globalcyberchallenge.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/kandy.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/intertrust.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/mercari.png" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/sap.jpg" alt="client-logo"></a>
+  
+  <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="/assets/images/clients-logo/ubisoft.jpg" alt="client-logo"></a>
+  
+</div>
+
+  </div>
+</section>
+
+  <!-- footer -->
+<footer class="bg-dark footer-section bg-dark-footer">
+  <div class="section">
+    <div class="container-fluid pr-4 pl-4">
+      <div class="row justify-content-around">
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text">Email</h5>
+          <p class="text-white paragraph-lg font-secondary footer-text">wncc@iitb.ac.in</p>
+        </div>
+        <div class = "col-lg-2">
+        <h4 class = "text-center footer-text">
+          <a href = "https://www.facebook.com/wncc.iitb/"><i class ="ti-facebook"></i></a>
+          <a class = "ml-4" href = "https://github.com/wncc"><i class ="ti-github"></i></a>
+          <a class = "ml-4" href = "https://www.linkedin.com/company/wncc-iitb/mycompany/"><i class ="ti-linkedin"></i></a>
+          <a class = "ml-4" href = "https://www.instagram.com/wncc.iitb/"><i class ="ti-instagram"></i></a>
+        </h4>
+        </div>
+        <div class="col-md-5">
+          <h5 class="text-light paragraph-lg footer-text" style="text-align: end;">Address</h5>
+          <p class="text-white paragraph-lg font-secondary text-end footer-text" style="text-align: end;">IIT Bombay, Powai, Mumbai, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <div class="border-top text-center border-dark py-2">
+    <p class="mb-0 text-light footer-text">Copyright ©️
+      <script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Web and Coding Club, IIT Bombay
+    </p>
+  </div>
+</footer>
+<!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="/assets/plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="/assets/js/script2.js"></script>
+</body>
+
+</html>

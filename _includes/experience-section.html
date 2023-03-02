@@ -1,0 +1,21 @@
+{% if site.data.settings.experience %}
+<!-- experience -->
+<section class="section">
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center">
+      {% for experience in site.data.settings.experience %}
+      <div class=" text-center mb-3 discord-logo">
+        <a href="{{ experience.link }}" target = "_blank">
+        <img class = "mb-3 discord-logo" style = "border-radius: 25%;"src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" alt="{{ site.data.settings.experience-title }} icon">
+        </a>
+      </div>
+      {% endfor %}
+      <div class=" text-center w-25 discord-desc" style = "margin-left:6vw">
+        <h4 class="section-title discord-title">{{ site.data.settings.experience-title }}</h4>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+{% endif %}

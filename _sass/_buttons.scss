@@ -1,0 +1,134 @@
+/* Button style */
+.btn {
+  font-size: 22px;
+  font-family: $secondary-font;
+  text-transform: capitalize;
+  padding: 16px 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &-sm {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+
+  &-xs {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+}
+
+.btn-primary {
+  background: orange;
+  color: $white;
+
+  &:active {
+    background: lighten($color: #41228e, $amount: 10) !important;
+  }
+
+  &:hover {
+    background: lighten($color: #41228e, $amount: 10);
+  }
+
+  &.focus,
+  &.active {
+    background: lighten($color: #41228e, $amount: 10) !important;
+    box-shadow: none !important;
+  }
+}
+
+
+.btn-transparent {
+  background: transparent;
+  color: $primary-color;
+  font-weight: bold;
+
+  &:active,
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+button{
+  margin: 10px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.slide-arrow{
+  position: absolute;
+  top: 40%;
+  margin-top: -15px;
+  @include mobile{
+    display: none;
+  }
+  @include tablet{
+    display: none;
+  }
+  @include mobile-xs{
+    display: none !important;
+  }
+}
+.prev-arrow{
+  left: -50px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 30px solid white;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+
+  &:hover {
+    border-right: 35px solid rgb(177, 248, 251);
+    border-left: 0 solid transparent;
+    border-top: 37.5px solid transparent;
+    border-bottom: 37.5px solid transparent;
+  }
+}
+.next-arrow{
+  right: -50px;
+  width: 0;
+  height: 0px;
+  border-right: 0 solid transparent;
+  border-left: 30px solid white;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+
+  &:hover {
+    border-right: 0 solid transparent;
+    border-left: 34px solid rgb(177, 248, 251);
+    border-top: 37.5px solid transparent;
+    border-bottom: 37.5px solid transparent;
+  }
+}
+
+
+
+#resource-cards {
+  
+  width:350px; 
+  height: 200px ;
+  & :hover{
+  background-color: rgb(46, 24, 28)!important;
+  transform:scale(1.1);
+  transition: 1.5s;
+  }
+}

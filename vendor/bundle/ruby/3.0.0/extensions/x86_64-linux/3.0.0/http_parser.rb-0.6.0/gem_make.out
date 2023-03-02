@@ -1,0 +1,16 @@
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/home/ishit_garg/.rbenv/versions/3.0.1/bin/ruby -I /home/ishit_garg/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20211023-6506-z2sg0j.rb extconf.rb
+creating Makefile
+
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/ishit_garg/Desktop/wncc-website.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20211023-6506-wwqn3m
